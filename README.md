@@ -3,10 +3,6 @@
   <img src="https://telegra.ph/file/8adfac9d34c43ce444fbf.jpg" width="540" height="300" />
 </p>
 
-<p align="center">
-- PROFILE CREATOR <a href="https://webasu-lea27yssy-aprilia3.vercel.app/" target="_blank">klik disini</a></p>
-</p>
-
 ------
 
 # ```CREATOR APRILIA```
