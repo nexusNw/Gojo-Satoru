@@ -5,7 +5,7 @@
 
 ------
 
-# ```CREATOR APRILIA```
+# ```Bot Info```
 <p align="center">
 <a href="https://github.com/Aprilia3/followers"><img title="Followers" src="https://img.shields.io/github/followers/Aprilia3?color=red&style=flat-square"></a>
 <a href="https://github.com/Aprilia3/Loli-MD/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Aprilia3/Loli-MD?color=blue&style=flat-square"></a>
