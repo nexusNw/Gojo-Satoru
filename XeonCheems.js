@@ -2701,6 +2701,7 @@ case 'randommenu': {
 	*Random Menu*
   
   ➙ ${prefix}coffee
+  ➙ ${prefix}couplepp
   `
   const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
@@ -3150,6 +3151,7 @@ break
   
   ꪶ🐕Random Menu🐕ꫂ
   ➙ ${prefix}coffee
+  ➙ ${prefix}couplepp
   
   ꪶ🐕Fun Menu🐕ꫂ
   ➙ ${prefix}couple
@@ -3180,7 +3182,7 @@ break
   ➙ ${prefix}ebinary
   ➙ ${prefix}dbinary
   
-  ꪶ🐕Misc Menu🐕ꫂ
+  ꪶ??Misc Menu🐕ꫂ
   ➙ ${prefix}ping
   ➙ ${prefix}owner
   ➙ ${prefix}donate
