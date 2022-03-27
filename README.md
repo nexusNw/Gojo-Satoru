@@ -1,81 +1,87 @@
-# Hisoka-Morou
-Script WhatsApp Bot Multi Device
-
-## NOTE
-This Script is for everyone, not for Sale
+<h1 align="center">Cheems Bot Multi Device <img src="https://user-images.githubusercontent.com/1303154/88677602-1635ba80-d120-11ea-84d8-d263ba5fc3c0.gif" width="40px" alt=""><br></h1>
+<p align="center">
+  <img src="https://media.tenor.com/images/5a4154b0fe4afdd9c5b256894e512b43/tenor.gif" alt="animated" width="540" height="300" />
+</p>
 
 <p align="center">
-	<img src="https://telegra.ph/file/09cc0981ccf07754d0af6.jpg" width="35%" style="margin-left: auto;margin-right: auto;display: block;">
+- PROFILE CREATOR <a href="https://webasu-lea27yssy-aprilia3.vercel.app/" target="_blank">klik disini</a></p>
 </p>
-<h1 align="center">Hisoka-Morou</h1>
 
-This is Script of WhatsApp multi device, working with [`@adiwajshing/baileys`](https://github.com/adiwajshing/baileys)
+------
 
-## My Project
-WhatsApp Bot normal [`DikaArdnt/Hisoka-Morrow`](https://github.com/DikaArdnt/Hisoka-Morrow)
-WhatsApp Bot Multi Device [`DikaArdnt/Hisoka-Morou`](https://github.com/DikaArdnt/Hisoka-Morou)
+# ```CREATOR APRILIA```
+<p align="center">
+<a href="https://github.com/Aprilia3/followers"><img title="Followers" src="https://img.shields.io/github/followers/Aprilia3?color=red&style=flat-square"></a>
+<a href="https://github.com/Aprilia3/Loli-MD/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Aprilia3/Loli-MD?color=blue&style=flat-square"></a>
+<a href="https://github.com/Aprilia3/Loli-MD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Aprilia3/Loli-MD?color=red&style=flat-square"></a>
+<a href="https://github.com/Aprilia3/Loli-MD/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Aprilia3/Loli-MD?label=Watchers&color=blue&style=flat-square"></a>
+<a href="https://github.com/Aprilia3/Loli-MD"><img title="Open Source" src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103"></a>
+<a href="https://github.com/Aprilia3/Loli-MD/"><img title="Size" src="https://img.shields.io/github/repo-size/Aprilia3/Loli-MD?style=flat-square&color=green"></a>
+<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FAprilia3%2FLoli-MD&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2300FF6D&title=hits&edge_flat=false"/></a>
+<a href="https://github.com/Aprilia3/Loli-MD/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>&nbsp;&nbsp;
+</p>
+<p align='center'>
+    </p>
 
+-------
 
-## UNTUK PENGGUNA WINDOWS/RDP
+## ```FOLLOW ALL SOSIALMEDIA ME```
+<p align="center">
+<a href="https://instagram.com/Aprilia3"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/> 
+<a href="https://wa.me/628811929177"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://www.youtube.com/c/BOTINDO"><img src="https://img.shields.io/badge/YouTube BOT INDO-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://www.youtube.com/c/BOTINDO" /><br>
+<a href="https://tiktok.com/@prii"><img src="https://img.shields.io/badge/Tiktok prii-black?style=for-the-badge&logo=tiktok&logoColor=ff000000&link=https://tiktok.com/@prii" /></a>
+</p>
 
-* Unduh & Instal Git [`Klik Disini`](https://git-scm.com/downloads)
-* Unduh & Instal NodeJS [`Klik Disini`](https://nodejs.org/en/download)
-* Unduh & Instal FFmpeg [`Klik Disini`](https://ffmpeg.org/download.html) (**Jangan Lupa Tambahkan FFmpeg ke variabel lingkungan PATH**)
+## ```DONASI```
 
+- [`GOPAY`](https://tinyurl.com/ycnybypd)
+- [`DANA`](https://tinyurl.com/ycnybypd)
+- [`OVO`](https://tinyurl.com/ycnybypd)
+- [`ALL PAYMENT`](https://tinyurl.com/ycnybypd)
 
+## ```GROUP BOT```
+
+- [`GROUP WA`]()
+
+# Requirements
+* [Node.js](https://nodejs.org/en/)
+* [Git](https://git-scm.com/downloads)
+* [FFmpeg](https://www.gyan.dev/ffmpeg/builds/) (for sticker command)
+* [Libwebp](https://developers.google.com/speed/webp/download) (for sticker wm)
+
+## For Termux
 ```bash
-git clone https://github.com/DikaArdnt/Hisoka-Morou
-cd Hisoka-Morou
-npm install
-```
-
-
-## FOR TERMUX/UBUNTU/SSH USER
-
-```bash
+termux-setup-storage
 apt update && apt upgrade
-apt install git -y
-apt install nodejs -y
-apt install ffmpeg -y
-git clone https://github.com/DikaArdnt/Hisoka-Morou
-cd Hisoka-Morou
+pkg install nodejs
+pkg install git 
+pkg install ffmpeg
+pkg install libwebp 
+pkg install imagemagick
+pkg install bash
+git clone https://github.com/Aprilia3/Loli-MD
+cd Loli-MD
 npm install
+npm start
 ```
-
-## IF ERROR INSTALL MODULE FOR TERMUX
-
+## For Windows
 ```bash
-pkg install yarn
-yarn
+git clone https://github.com/Aprilia3/Loli-MD
+cd Loli-MD
+npm install
+npm start
 ```
-
-## Installing
+## For VPS
 ```bash
-$ node .
+apt install nodejs 
+apt install git 
+apt apt install ffmpeg 
+apt apt install libwebp 
+apt apt install imagemagick
+apt install bash
+git clone https://github.com/Aprilia3/Loli-MD
+cd Loli-MD
+npm install
+npm start
 ```
-
-## ❗ Warning
-WhatsApp bot is still in the development stage, so there are a few bugs
-WhatsApp Connection (BETA, not working perfectly)
-
-Editing Number Owner & session name in [`config.js`](https://github.com/DikaArdnt/Hisoka-Morou/blob/master/config.js)
-Get Apikey zenz on [`zenz`](https://zenzapi.xyz/pricing)
-
-
-## Thanks To
-* [`@adiwajshing/baileys`](https://github.com/adiwajshing/baileys)
-* [`Nurutomo`](https://github.com/Nurutomo)
-* [`Mhankbarbar`](https://github.com/MhankBarBar)
-* [`DikaArdnt`](https://github.com/DikaArdnt)
-
-License: [MIT](https://en.wikipedia.org/wiki/MIT_License)
-
-Support Me
-* [`Paypal`](https://www.paypal.me/Cakhaho)
-* [`Saweria`](https://saweria.co/DikaArdnt)
-
-## Contact Me
-* [`Wangsap`](https://wa.me/6288292024190)
-* [`Igeh`](https://instagram.com/cak_haho)
-* [`Pesbuk`](https://www.facebook.com/Haho.id)
-
