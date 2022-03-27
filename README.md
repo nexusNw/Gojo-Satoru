@@ -1,4 +1,4 @@
-<h1 align="center">Cheems Bot Multi Device<><br></h1>
+<h1 align="center">Cheems Bot Multi Device<br></h1>
 <p align="center">
   <img src="https://media.tenor.com/images/5a4154b0fe4afdd9c5b256894e512b43/tenor.gif" alt="animated" width="540" height="300" />
 </p>
