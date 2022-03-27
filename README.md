@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-Cheems Bot Multi Device is a automoted whatsapp bot created by Xeon
+Cheems Bot Multi Device is a automated whatsapp bot created by Xeon using <a href="https://github.com/adiwajshing/Baileys" target="_blank">Baileys</a></p> and nodejs
 </p>
 
 ------
