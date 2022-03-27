@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-A whatsapp chat bot
+Cheems Bot Multi Device is a automoted whatsapp bot created by Xeon
 </p>
 
 ------
