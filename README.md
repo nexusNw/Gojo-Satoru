@@ -4,18 +4,18 @@
 </p>
 
 <p align="center">
-Cheems Bot Multi Device is a automated whatsapp bot created by Xeon using <a href="https://github.com/adiwajshing/Baileys" target="_blank">Baileys</a> and <a href="https://github.com/nodejs" target="_blank">Nodejs</a>
+Cheems Bot Multi Device is a automated whatsapp bot created by Xeon using <a href="https://github.com/adiwajshing/Baileys" target="_blank">Baileys</a> and <a href="https://github.com/nodejs" target="_blank">Nodejs</a>.
 </p>
 
 ------
 
 # ```Bot Info```
 <p align="center">
-<a href="https://github.com/Aprilia3/followers"><img title="Followers" src="https://img.shields.io/github/followers/Aprilia3?color=red&style=flat-square"></a>
-<a href="https://github.com/Aprilia3/Loli-MD/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Aprilia3/Loli-MD?color=blue&style=flat-square"></a>
-<a href="https://github.com/Aprilia3/Loli-MD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Aprilia3/Loli-MD?color=red&style=flat-square"></a>
-<a href="https://github.com/Aprilia3/Loli-MD/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Aprilia3/Loli-MD?label=Watchers&color=blue&style=flat-square"></a>
-<a href="https://github.com/Aprilia3/Loli-MD"><img title="Open Source" src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103"></a>
+<a href="https://github.com/DGXeon/followers"><img title="Followers" src="https://img.shields.io/github/followers/DGXeon?color=red&style=flat-square"></a>
+<a href="https://github.com/DGXeon/CheemsBot-MD/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/DGXeon/CheemsBot-MD?color=blue&style=flat-square"></a>
+<a href="https://github.com/DGXeon/CheemsBot-MD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/DGXeon/CheemsBot-MD?color=red&style=flat-square"></a>
+<a href="https://github.com/DGXeon/CheemsBot-MD/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/DGXeon/CheemsBot-MD?label=Watchers&color=blue&style=flat-square"></a>
+<a href="https://github.com/DGXeon/CheemsBot-MD"><img title="Open Source" src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103"></a>
 <a href="https://github.com/Aprilia3/Loli-MD/"><img title="Size" src="https://img.shields.io/github/repo-size/Aprilia3/Loli-MD?style=flat-square&color=green"></a>
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FAprilia3%2FLoli-MD&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2300FF6D&title=hits&edge_flat=false"/></a>
 <a href="https://github.com/Aprilia3/Loli-MD/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>&nbsp;&nbsp;
