@@ -32,16 +32,14 @@ Cheems Bot Multi Device is a automated whatsapp bot created by Xeon using <a hre
 <a href="https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A"><img src="https://img.shields.io/badge/Subscribe Xeon-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://www.youtube.com/c/BOTINDO" /><br>
 </p>
 
-## ```DONASI```
+## ```Donate Me```
 
-- [`GOPAY`](https://tinyurl.com/ycnybypd)
-- [`DANA`](https://tinyurl.com/ycnybypd)
-- [`OVO`](https://tinyurl.com/ycnybypd)
-- [`ALL PAYMENT`](https://tinyurl.com/ycnybypd)
+- [`Fampay`](https://telegra.ph/file/69933531032d509ff9e54.jpg)
 
-## ```GROUP BOT```
+## ```Bot Whatsapp Groups```
 
-- [`GROUP WA`]()
+- [`1st GC`](https://chat.whatsapp.com/HYj9wu5Jrv6CROxyeQbHoS)
+- [`2nd GC`](https://chat.whatsapp.com/LS1Xx3fSqg7FpSYSjKWhL5)
 
 # Requirements
 * [Node.js](https://nodejs.org/en/)
