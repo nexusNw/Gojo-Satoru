@@ -45,8 +45,8 @@ Cheems Bot Multi Device is a automated whatsapp bot created by Xeon using <a hre
 
 ## `SETTINGS`
 
-- CHANGE OWNER NUMBER [Here](https://github.com/DGXeon/DogeBot3/blob/master/setting/setting.json#L6)
-- CHANGE OWNER NAME [Here](https://github.com/DGXeon/DogeBot3/blob/master/setting/setting.json#L7)
+- CHANGE OWNER NUMBER [Here](https://github.com/DGXeon/CheemsBot-MD/blob/master/config/config.json#L25)
+- CHANGE OWNER NAME [Here](https://github.com/DGXeon/CheemsBot-MD/blob/master/config/config.json#L30)
 - CHANGE BOT NAME [Here](https://github.com/DGXeon/DogeBot3/blob/master/setting/setting.json#L8)
 
 ## ` BUILDPACKS`
