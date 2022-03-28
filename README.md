@@ -41,44 +41,54 @@ Cheems Bot Multi Device is a automated whatsapp bot created by Xeon using <a hre
 - [`1st GC`](https://chat.whatsapp.com/HYj9wu5Jrv6CROxyeQbHoS)
 - [`2nd GC`](https://chat.whatsapp.com/LS1Xx3fSqg7FpSYSjKWhL5)
 
-# Requirements
+# Setup For Deployment 👇
+
+## `SETTINGS`
+
+- CHANGE OWNER NUMBER [Here](https://github.com/DGXeon/DogeBot3/blob/master/setting/setting.json#L6)
+- CHANGE OWNER NAME [Here](https://github.com/DGXeon/DogeBot3/blob/master/setting/setting.json#L7)
+- CHANGE BOT NAME [Here](https://github.com/DGXeon/DogeBot3/blob/master/setting/setting.json#L8)
+
+## ` BUILDPACKS`
+
+```
+https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
+https://github.com/clhuang/heroku-buildpack-webp-binaries.git
+https://github.com/DuckyTeam/heroku-buildpack-imagemagick
+heroku/nodejs
+```
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/DGXeon/CheemsBot-MD/)
+
+# Install Manually 👇
+## `Requirements`
 * [Node.js](https://nodejs.org/en/)
 * [Git](https://git-scm.com/downloads)
-* [FFmpeg](https://www.gyan.dev/ffmpeg/builds/) (for sticker command)
-* [Libwebp](https://developers.google.com/speed/webp/download) (for sticker wm)
-
-## For Termux
+* [FFmpeg](https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-2020-12-08-13-03/ffmpeg-n4.3.1-26-gca55240b8c-win64-gpl-4.3.zip)
+* [Libwebp](https://developers.google.com/speed/webp/download)
+* Any text editor
+## `Clone Repo & Installation dependencies`
 ```bash
-termux-setup-storage
-apt update && apt upgrade
-pkg install nodejs
-pkg install git 
-pkg install ffmpeg
-pkg install libwebp 
-pkg install imagemagick
+git clone https://github.com/DGXeon/DogeBot.git
+cd DogeBot3
+npm start
+```
+## `For Termux/Ssh/Ubuntu`
+```bash
+apt update
+apt upgrade
+pkg update && pkg upgrade 
+pkg install hot
 pkg install bash
-git clone https://github.com/Aprilia3/Loli-MD
-cd Loli-MD
-npm install
+pkg install libwebp
+pkg install git -y
+pkg install nodejs -y 
+pkg install ffmpeg -y 
+pkg install wget
+pkg install imagemagick -y
+git clone https://github.com/DGXeon/CheemsBot-MD
+cd CheemsBot-MD
+ls
 npm start
-```
-## For Windows
-```bash
-git clone https://github.com/Aprilia3/Loli-MD
-cd Loli-MD
-npm install
-npm start
-```
-## For VPS
-```bash
-apt install nodejs 
-apt install git 
-apt apt install ffmpeg 
-apt apt install libwebp 
-apt apt install imagemagick
-apt install bash
-git clone https://github.com/Aprilia3/Loli-MD
-cd Loli-MD
-npm install
-npm start
+scan qr code within 15seconds
 ```
