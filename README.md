@@ -36,7 +36,7 @@ Cheems Bot Multi Device is a automated whatsapp bot created by Xeon using <a hre
 
 - [`Fampay`](https://telegra.ph/file/69933531032d509ff9e54.jpg)
 
-## ```Bot Whatsapp Groups```
+## ```Bot Support Groups```
 
 - [`1st GC`](https://chat.whatsapp.com/HYj9wu5Jrv6CROxyeQbHoS)
 - [`2nd GC`](https://chat.whatsapp.com/LS1Xx3fSqg7FpSYSjKWhL5)
