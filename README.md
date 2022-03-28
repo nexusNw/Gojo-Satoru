@@ -34,7 +34,11 @@ Cheems Bot Multi Device is a automated whatsapp bot created by Xeon using <a hre
 
 ## ```Donate Me```
 
-- [`Fampay`](https://telegra.ph/file/69933531032d509ff9e54.jpg)
+- [`FamPay`](https://telegra.ph/file/69933531032d509ff9e54.jpg)
+
+<p align="left">
+Scan qr code from the above button, u can pay through GooglePay, Paytm, PhonePe and FamPay
+</p>
 
 ## ```Bot Support Groups```
 
@@ -47,7 +51,7 @@ Cheems Bot Multi Device is a automated whatsapp bot created by Xeon using <a hre
 
 - CHANGE OWNER NUMBER [Here](https://github.com/DGXeon/CheemsBot-MD/blob/master/config/config.json#L25)
 - CHANGE OWNER NAME [Here](https://github.com/DGXeon/CheemsBot-MD/blob/master/config/config.json#L30)
-- CHANGE BOT NAME [Here](https://github.com/DGXeon/DogeBot3/blob/master/setting/setting.json#L8)
+- CHANGE BOT NAME [Here](https://github.com/DGXeon/CheemsBot-MD/blob/master/config/config.json#L29)
 
 ## ` BUILDPACKS`
 
@@ -70,7 +74,7 @@ heroku/nodejs
 ## `Clone Repo & Installation dependencies`
 ```bash
 git clone https://github.com/DGXeon/DogeBot.git
-cd DogeBot3
+cd CheemsBot-MD
 npm start
 ```
 ## `For Termux/Ssh/Ubuntu`
@@ -88,7 +92,17 @@ pkg install wget
 pkg install imagemagick -y
 git clone https://github.com/DGXeon/CheemsBot-MD
 cd CheemsBot-MD
-ls
 npm start
-scan qr code within 15seconds
+```
+## `For VPS`
+```bash
+apt install nodejs 
+apt install git 
+apt apt install ffmpeg 
+apt apt install libwebp 
+apt apt install imagemagick
+apt install bash
+git clone https://github.com/DGXeon/CheemsBot-MD
+cd CheemsBot-MD
+npm start
 ```
