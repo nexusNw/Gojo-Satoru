@@ -73,7 +73,7 @@ heroku/nodejs
 * Any text editor
 ## `Clone Repo & Installation dependencies`
 ```bash
-git clone https://github.com/DGXeon/DogeBot.git
+git clone https://github.com/DGXeon/CheemsBot-MD.git
 cd CheemsBot-MD
 npm start
 ```
