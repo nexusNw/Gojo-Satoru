@@ -81,8 +81,7 @@ npm start
 ```bash
 apt update
 apt upgrade
-pkg update && pkg upgrade 
-pkg install hot
+pkg update && pkg upgrade
 pkg install bash
 pkg install libwebp
 pkg install git -y
