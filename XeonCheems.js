@@ -3182,7 +3182,7 @@ break
   ➙ ${prefix}ebinary
   ➙ ${prefix}dbinary
   
-  ꪶ??Misc Menu🐕ꫂ
+  ꪶ🐕Misc Menu🐕ꫂ
   ➙ ${prefix}ping
   ➙ ${prefix}owner
   ➙ ${prefix}donate
@@ -3215,7 +3215,7 @@ break
   ➙ ${prefix}mute On/Off
   ➙ ${prefix}antiwame On/Off
   
-  ꪶ🐕Owner Features🐕ꫂ
+  ꪶ🐕Owner Menu🐕ꫂ
   ➙ ${prefix}chat [option]
   ➙ ${prefix}join [link]
   ➙ ${prefix}leave
