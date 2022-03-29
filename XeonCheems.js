@@ -104,7 +104,7 @@ return dDisplay + hDisplay + mDisplay + sDisplay;
         }
         
         const replay = (teks) => {
-            XeonBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botnma}`,"body": ` Subscribe Bot's Official YT Channel`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./XeonMedia/cheemspic.jpg`),"sourceUrl": "https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A"}}}, { quoted: m})
+            XeonBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botnma}`,"body": ` Subscribe Bot's Official YT Channel`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./XeonMedia/cheemspic.jpg`),"sourceUrl": "https://youtu.be/imFIX-Wrt3s"}}}, { quoted: m})
         }
 try {
             let isNumber = x => typeof x === 'number' && !isNaN(x)
@@ -594,7 +594,7 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
             }
             break
             case 'sc': case 'script': {
-                reply('Script : https://github.com/DGXeon/CheemsBot-MD\n Dont Forget To Give Star\n\nYoutube : https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A\n Dont Forget To Subscribe')
+                reply('Script : https://github.com/DGXeon/CheemsBot-MD\n Dont Forget To Give Star\n\nYoutube : https://youtu.be/imFIX-Wrt3s\n Dont Forget To Subscribe')
             }
             break
             case 'chat': {
@@ -2387,7 +2387,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'YouTube📍',
-                                    url: 'https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A'
+                                    url: 'https://youtu.be/imFIX-Wrt3s'
                                 }
                             }, {
                             	urlButton: {
@@ -2447,7 +2447,7 @@ Please Select Button Below
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'YouTube📍',
-                                    url: 'https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A'
+                                    url: 'https://youtu.be/imFIX-Wrt3s'
                                 }
                             }, {
                             	urlButton: {
@@ -2617,7 +2617,7 @@ case 'grupmenu': {
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'YouTube📍',
-                                    url: 'https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A'
+                                    url: 'https://youtu.be/imFIX-Wrt3s'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2659,7 +2659,7 @@ case 'downloadmenu': {
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'YouTube📍',
-                                    url: 'https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A'
+                                    url: 'https://youtu.be/imFIX-Wrt3s'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2696,7 +2696,7 @@ case 'downloadmenu': {
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'YouTube📍',
-                                    url: 'https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A'
+                                    url: 'https://youtu.be/imFIX-Wrt3s'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2727,7 +2727,7 @@ case 'randommenu': {
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'YouTube📍',
-                                    url: 'https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A'
+                                    url: 'https://youtu.be/imFIX-Wrt3s'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2759,7 +2759,7 @@ case 'funmenu': {
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'YouTube📍',
-                                    url: 'https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A'
+                                    url: 'https://youtu.be/imFIX-Wrt3s'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2799,7 +2799,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'YouTube📍',
-                                    url: 'https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A'
+                                    url: 'https://youtu.be/imFIX-Wrt3s'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2833,7 +2833,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'YouTube📍',
-                                    url: 'https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A'
+                                    url: 'https://youtu.be/imFIX-Wrt3s'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2891,7 +2891,7 @@ case 'horoscopemenukcodk': {
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'YouTube📍',
-                                    url: 'https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A'
+                                    url: 'https://youtu.be/imFIX-Wrt3s'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2929,7 +2929,7 @@ case 'convertmenu': {
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'YouTube📍',
-                                    url: 'https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A'
+                                    url: 'https://youtu.be/imFIX-Wrt3s'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2969,7 +2969,7 @@ case 'nocategorymenu': {
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'YouTube📍',
-                                    url: 'https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A'
+                                    url: 'https://youtu.be/imFIX-Wrt3s'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3006,7 +3006,7 @@ case 'databasemenu': {
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'YouTube📍',
-                                    url: 'https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A'
+                                    url: 'https://youtu.be/imFIX-Wrt3s'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3038,7 +3038,7 @@ case 'anonymouschatmenu': {
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'YouTube📍',
-                                    url: 'https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A'
+                                    url: 'https://youtu.be/imFIX-Wrt3s'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3070,7 +3070,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'YouTube📍',
-                                    url: 'https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A'
+                                    url: 'https://youtu.be/imFIX-Wrt3s'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3107,7 +3107,7 @@ break
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'YouTube📍',
-                                    url: 'https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A'
+                                    url: 'https://youtu.be/imFIX-Wrt3s'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3248,7 +3248,7 @@ break
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'YouTube📍',
-                                    url: 'https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A'
+                                    url: 'https://youtu.be/imFIX-Wrt3s'
                                 }
                             }, {
                                 quickReplyButton: {
