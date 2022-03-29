@@ -1260,7 +1260,7 @@ case 'antilink':
                             }]
                       fatihgans = fs.readFileSync('./XeonMedia/cheemspic.jpg')
                       let txt = `「 Cheems Bot Broadcast 」\n\n${text}`
-                      XeonBotInc.send5ButImg(yoi, txt, `Broadcast Bot ${global.pengguna}`, fatihgans, btn)
+                      XeonBotInc.send5ButImg(yoi, txt, `Broadcast By ${global.pengguna}`, fatihgans, btn)
 		}
 		reply('Broadcast Success')
             }
