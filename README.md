@@ -109,7 +109,7 @@ git clone https://github.com/DGXeon/CheemsBot-MD
 cd CheemsBot-MD
 npm start
 ```
-## `For 24/7 Active`
+## `For 24/7 Activation`
 ```bash
 npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 ```
