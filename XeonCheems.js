@@ -1244,7 +1244,7 @@ case 'antilink':
                 if (!isCreator) throw mess.owner
                 if (!text) throw `Where is the text?\n\nExample : ${prefix + command} cheems bot here`
                 let anu = await store.chats.all().map(v => v.id)
-                reply(`Mengirim Broadcast Ke ${anu.length} Chat\nWaktu Selesai ${anu.length * 1.5} second`)
+                reply(`Send Broadcast To ${anu.length} Chat\nIn ${anu.length * 1.5} second`)
 		for (let yoi of anu) {
 		    await sleep(1500)
 		    let btn = [{
