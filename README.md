@@ -41,6 +41,7 @@ ASTA - MD is a automated whatsapp bot created by <a href="https://github.com/nex
 
 ## `SETTINGS`
 
+- CHANGE SESSION CODE [HERE](https://github.com/nexusNw/Asta/blob/master/session.json#L1)
 - CHANGE OWNER NUMBER [Here](https://github.com/nexusNw/Asta/blob/master/config.js#L25)
 - CHANGE OWNER NAME [Here](https://github.com/nexusNw/Asta/blob/master/config.js#L30)
 - CHANGE BOT NAME [Here](https://github.com/nexusNw/Asta/blob/master/config.js#L29)
