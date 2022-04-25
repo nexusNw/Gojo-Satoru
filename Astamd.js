@@ -26,7 +26,7 @@ let { addLevelingId, addLevelingLevel, addLevelingXp, getLevelingId, getLeveling
 const speedofbot = require("performance-now")
 
 //[thumb]\\
-let nex = fs.readFileSync('./Nexusmedia/astapic.jpg')
+let nex = fs.readFileSync('./NexusMedia/astapic.jpg')
 
 //[database]\\
 const antilink = JSON.parse(fs.readFileSync('./database/antilink.json'))
