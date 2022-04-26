@@ -10,6 +10,9 @@ ASTA - MD is a automated whatsapp bot created by <a href="https://github.com/nex
 <p align="center">
 </p>
 
+```
+⭐ BOT STATUS- RUNNING SUCCESSFULLY 🟢
+```
 </p>
 ------
 
@@ -41,7 +44,6 @@ ASTA - MD is a automated whatsapp bot created by <a href="https://github.com/nex
 
 ## `SETTINGS`
 
-- CHANGE SESSION CODE [HERE](https://github.com/nexusNw/Asta/blob/master/session.json#L1)
 - CHANGE OWNER NUMBER [Here](https://github.com/nexusNw/Asta/blob/master/config.js#L25)
 - CHANGE OWNER NAME [Here](https://github.com/nexusNw/Asta/blob/master/config.js#L30)
 - CHANGE BOT NAME [Here](https://github.com/nexusNw/Asta/blob/master/config.js#L29)
@@ -62,7 +64,9 @@ heroku/nodejs
 
 <div align="center">  
 <details>
-    <summary>🎯<b> Deploy in other platforms🕵️</b></summary>
+    <summary>🎯<b>To Deploy in other platforms , Click Here</b>🗳️
+
+</summary>
 
 
 <div align="center">
@@ -76,12 +80,7 @@ heroku/nodejs
 * [FFmpeg](https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-2020-12-08-13-03/ffmpeg-n4.3.1-26-gca55240b8c-win64-gpl-4.3.zip)
 * [Libwebp](https://developers.google.com/speed/webp/download)
 * Any text editor
-## `Clone Repo & Installation dependencies`
-```bash
-git clone https://github.com/.git
-cd CheemsBot-MD
-npm start
-```
+
 ## `For Termux/Ssh/Ubuntu`
 ```bash
 apt update
@@ -94,8 +93,9 @@ pkg install nodejs -y
 pkg install ffmpeg -y 
 pkg install wget
 pkg install imagemagick -y
-git clone https://github.com/DGXeon/CheemsBot-MD
-cd CheemsBot-MD
+git clone https://github.com/nexusNw/Asta
+cd Asta
+rm -rf session.js 
 npm start
 ```
 
