@@ -22,12 +22,12 @@ global.APIKeys = {
 }
 
 //═══════[modification]════════\\
-global.owner = ['918129624395','919037058796'] //owner number, u can put multiple owner number, within quotations and seperated by comma.
-global.pemilik = ['918129624395'] //another owner number
-global.premium = ['918129624395'] //premium number
-global.pengguna = 'Nexus' //username
-global.botnma = 'Asta-md' //bot name
-global.ownernma = '👻Airboy Nexus' //owner name
+global.owner = ['923087880256'] //owner number, u can put multiple owner number, within quotations and seperated by comma.
+global.pemilik = ['923087880256'] //another owner number
+global.premium = ['923087880256'] //premium number
+global.pengguna = 'AKU' //username
+global.botnma = 'Ari Ani Testing' //bot name
+global.ownernma = '👻Harem King AKu' //owner name
 global.packname = 'Asta Md' //sticker package name
 global.author = 'By Air Boy Nexus' //sticker author name
 global.sessionName = 'session' //session name
@@ -46,7 +46,7 @@ global.mess = {
 }
 global.limitawal = {
     premium: "Infinity", //premium user limit
-    free: 28 //free user limit
+    free: 280549406 //free user limit
 }
 global.thumb = fs.readFileSync('./NexusMedia/astapic.jpg')
 
