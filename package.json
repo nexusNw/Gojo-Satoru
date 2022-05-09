@@ -1,7 +1,7 @@
 {
-  "name": "Asta-MD",
-  "version": "1.0.0",
-  "description": "Multi device wa bot created by nexusNw Inc.",
+  "name": "Gojo-Satoru",
+  "version": "2.0.0",
+  "description": "WhatsApp Using Lib Baileys Multi Device",
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
@@ -10,15 +10,15 @@
   "keywords": [
     "termux",
     "whatsapp",
-    "2021",
-    "wabase-md",
+    "2022",
+    "GojoSatoru",
     "base",
     "baileys-md",
     "bot",
     "bot-md",
     "multi-device"
   ],
-  "author": "nexusNw",
+  "author": "NexusNw",
   "license": "MIT",
   "dependencies": {
     "@adiwajshing/baileys": "^4.0.1",
@@ -38,6 +38,8 @@
     "human-readable": "^0.2.1",
     "jimp": "^0.16.1",
     "jsdom": "^16.4.0",
+    "lowdb": "^2.1.0",
+    "mongoose": "^6.2.1",
     "moment-timezone": "^0.5.34",
     "node-cron": "^3.0.0",
     "node-fetch": "^2.6.1",
@@ -52,6 +54,7 @@
     "scrape-primbon": "^1.1.0",
     "util": "^0.12.4",
     "yargs": "^17.2.1",
+    "xfarr-api": "^1.0.2",
     "yt-search": "^2.10.2"
   },
   "directories": {
@@ -61,10 +64,10 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nexusNw/Asta.git"
+    "url": "git+https://github.com/nexusNw/Gojo-Satoru.git"
   },
   "bugs": {
-    "url": "https://github.com/nexusNw/Asta/issues"
+    "url": "https://github.com/nexusNw/Gojo-Satoru/issues"
   },
-  "homepage": "https://github.com/nexusNw/Asta#readme"
+  "homepage": "https://github.com/nexusNw/Gojo-Satoru#readme"
 }
