@@ -1,10 +1,10 @@
-<h1 align="center">ꪶ𝙰𝚂𝚃𝙰-𝙼𝙳ꫂ<br></h1>
+<h1 align="center">ꪶ𝙶𝙾𝙹𝙾-𝚂𝙰𝚃𝙾𝚁𝚄ꫂ<br></h1>
 <p align="center">
-  <img src="https://i.imgur.com/WUVh6yq.jpeg" width="370" height="370" />
+  <img src="https://telegra.ph/file/5f4d021db465e86553976.jpg" width="370" height="370" />
 </p>
 
 <p align="center">
-ASTA - MD is a automated whatsapp bot created by <a href="https://github.com/nexusNw" target="_blank">N3XU5-53R</a> using <a href="https://github.com/adiwajshing/Baileys" target="_blank">Baileys</a> and <a href="https://github.com/nodejs" target="_blank">Nodejs</a>. Dont forget to give a star bro.
+GojoSatoru is a automated Multi Device whatsapp bot created by <a href="https://github.com/nexusNw" target="_blank">N3XU5-53R</a> using <a href="https://github.com/adiwajshing/Baileys" target="_blank">Baileys</a> and <a href="https://github.com/nodejs" target="_blank">Nodejs</a>. Dont forget to give a star bro.
 </p>
 
 <p align="center">
@@ -19,8 +19,8 @@ ASTA - MD is a automated whatsapp bot created by <a href="https://github.com/nex
 # ```Bot Info```
 <p align="center">
 <a href="https://github.com/nexusNw/followers"><img title="Followers" src="https://img.shields.io/github/followers/nexusNw?color=red&style=flat-square"></a>
-<a href="https://github.com/nexusNw/Asta"><img title="Open Source" src="https://img.shields.io/badge/Author-Nexus%20Nw%20Inc.-red?v=103"></a><a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FnexusNw%2FAsta&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2300FF6D&title=hits&edge_flat=false"/></a>
-<a href="https://github.com/nexusNw/Asta/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>&nbsp;&nbsp;
+<a href="https://github.com/nexusNw/Gojo-Satoru"><img title="Open Source" src="https://img.shields.io/badge/Author-Nexus%20Nw%20Inc.-red?v=103"></a><a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FnexusNw%2FGojo-Satoru&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2300FF6D&title=hits&edge_flat=false"/></a>
+<a href="https://github.com/nexusNw/Gojo-Satoru/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>&nbsp;&nbsp;
 </p>
 <p align='center'>
     </p>
@@ -44,9 +44,9 @@ ASTA - MD is a automated whatsapp bot created by <a href="https://github.com/nex
 
 ## `SETTINGS`
 
-- CHANGE OWNER NUMBER [Here](https://github.com/nexusNw/Asta/blob/master/config.js#L25)
-- CHANGE OWNER NAME [Here](https://github.com/nexusNw/Asta/blob/master/config.js#L30)
-- CHANGE BOT NAME [Here](https://github.com/nexusNw/Asta/blob/master/config.js#L29)
+- CHANGE OWNER NUMBER [Here](https://github.com/nexusNw/Asta/blob/master/settings.js#L24)
+- CHANGE OWNER NAME [Here](https://github.com/nexusNw/Asta/blob/master/settings.js#L25)
+- CHANGE BOT NAME [Here](https://github.com/nexusNw/Asta/blob/master/settings.js#L26)
 
 ## ` BUILDPACKS`
 
@@ -57,7 +57,7 @@ https://github.com/DuckyTeam/heroku-buildpack-imagemagick
 heroku/nodejs
 ```
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/nexusNw/Asta/)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/nexusNw/Gojo-Satoru/)
 
 
 </p>
