@@ -659,7 +659,7 @@ if (q.includes('--help')) return reply(examkosong)
   break  
   //transaction\\
  case 'beli': case 'buy':{
-if (q.includes('--help')) r|&&eturn reply(examkosong) 
+if (q.includes('--help')) return reply(examkosong) 
  if (!isInventoriBuruan){ addInventoriBuruan(m.sender) } 
  if (!isInventoryMonay){ addInventoriMonay(m.sender) }
  if (!isInventory){ addInventori(m.sender) }
