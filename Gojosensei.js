@@ -3230,7 +3230,6 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             }
             }
             break
-            break
             case 'owner': case 'creator': {
               GojoMdNx.sendContact(m.chat, global.pemilik, m)
            const devsound = fs.readFileSync('./GojoMedia/kingbot1.mp3') //u can change the music in Media folder
