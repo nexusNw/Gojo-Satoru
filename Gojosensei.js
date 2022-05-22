@@ -3234,7 +3234,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             case 'owner': case 'creator': {
               GojoMdNx.sendContact(m.chat, global.pemilik, m)
            const devsound = fs.readFileSync('./GojoMedia/kingbot1.mp3') //u can change the music in Media folder
-           NexusNwInc.sendMessage(m.chat, { audio: devsound, mimetype: 'audio/mp4', ptt: true, quoted: m })
+             GojoMdNx.sendMessage(m.chat, { audio: devsound, mimetype: 'audio/mp4', ptt: true, quoted: m })
             }
             break
 case 'cry':case 'kill':case 'hug':case 'pat':case 'lick':case 'kiss':case 'bite':case 'yeet':case 'neko':case 'bully':case 'bonk':case 'wink':case 'poke':case 'nom':case 'slap':case 'smile':case 'wave':case 'awoo':case 'blush':case 'smug':case 'glomp':case 'happy':case 'dance':case 'cringe':case 'cuddle':case 'highfive':case 'shinobu':case 'megumin':case 'handhold':
@@ -3282,9 +3282,9 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./GojoMedia/gojo.jpg')},
                             hydratedFooterText: `┌─❖
-│「 Hi 👋 」
+│「 sup 👋 」
 └┬❖ 「 ${pushname} 」
-┌┤✑  Shashi burina thaicho🎉
+┌┤✑  Shashi kingsley thaicho🎉
 ││✑  🐦🖐️!!
 │└───────────────┈ ⳹
 │ 「 BOT INFO 」
@@ -3521,7 +3521,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
             }
             break
             case 'sc': case 'script': {
-                reply(`GitHub : https://github.com/nexusNw/Gojo-Satoru\n Dont Forget To Give Star\n\nYouTube : ${myweb}\nDont Forget To Watch Tutorial`)
+                reply(`GitHub : https://github.com/ife250/Gojo-Satoru\n Dont Forget To Give Star\n\nYouTube : ${myweb}\nDont Forget To Watch Tutorial`)
             }
             break
 case 'allmenu': {
