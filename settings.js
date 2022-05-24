@@ -20,7 +20,7 @@ global.APIKeys = {
 
 //customize settings\\
 global.owner = ['265889976968']
-global.premium = ['265889976968']
+global.premium = ['265889976968,265883776711,265994894966,263715183177']
 global.ownernomer = '265889976968'
 global.ownername = '🐦kingsley'
 global.botname = 'kingsley-bot'
@@ -38,7 +38,7 @@ global.mess = {
     success: 'kingsley 👩‍💻 Done ✓',
     admin: 'This Feature Is Only For Admin!',
     botAdmin: 'Bot Must Be Admin First!',
-    owner: 'This Feature Is Only For kingsley!',
+    owner: 'This Feature Is Only For ꪶ࿋྄ིᤢꫂKíñgsléyꪶ࿋྄ིᤢꫂ https://wa.me/265889976968',
     group: 'Feature Used Only For Groups lmao!',
     private: 'Features Used Only For Private Chat!',
     bot: 'This Feature Is Only For Bot',
