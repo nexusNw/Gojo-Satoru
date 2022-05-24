@@ -3162,7 +3162,7 @@ View List Of Messages With ${prefix}listmsg`)
             break
             case 'self': {
                 if (!isCreator) return replay(`${mess.owner}`)
-                GojoMdNx.public = false
+                GojoMdNx.public = true
                 reply('Successful Change To Self Usage')
             }
             break
@@ -3265,12 +3265,12 @@ reply("Success Changing Menu To "+q)
 break
                     case 'bug': case 'report': {
                     	if(!text) return reply(`Enter The Bug\n\nExample: ${command} Menu Error`)
-                    	GojoMdNx.sendMessage(`918129624395@s.whatsapp.net`, {text: `*Bug Report From:* wa.me/${m.sender.split("@")[0]}
+                    	GojoMdNx.sendMessage(`265889976968@s.whatsapp.net`, {text: `*Bug Report From:* wa.me/${m.sender.split("@")[0]}
 Report Message: ${text}` })
 reply(`Successfully Reported To The Owner\n\nPlease Make Sure The Bug Is Valid, If You Play With This, Use This Feature Again And Again For No Reason, You Will Be Blocked For Sure !`)
                     }
                     break
-                     case 'alive': case 'bot':{
+                     case 'alive': case 'bot': case 'kingsley': case 'king':{
                            	timestampe = speed();
 latensie = speed() - timestampe
  anu = ` `
@@ -3279,7 +3279,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./GojoMedia/gojo.jpg')},
+                            jpegThumbnail: fs.readFileSync('./GojoMedia/AnimeX.jpg')},
                             hydratedFooterText: `┌─❖
 │「 sup 👋 」
 └┬❖ 「 ${pushname} 」
@@ -3339,7 +3339,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./GojoMedia/gojo.jpg')}, 
+                            jpegThumbnail: fs.readFileSync('./GojoMedia/AnimeX.jpg')}, 
                             hydratedFooterText: `
 ┌─❖
 │「 sup 😎 」
