@@ -20,7 +20,7 @@ global.APIKeys = {
 
 //customize settings\\
 global.owner = ['265889976968']
-global.premium = ['265889976968,265883776711,265994894966,263715183177']
+global.premium = ['265889976968']
 global.ownernomer = '265889976968'
 global.ownername = '🐦kingsley'
 global.botname = 'kingsley-bot'
@@ -32,7 +32,7 @@ global.myweb = 'https://youtube.com/channel/UCqoUjPvDdb0kjXNYdvPPpHQ'
 global.packname = 'kingsley-bot'
 global.author = '🐦kingsley'
 global.sessionName = 'session'
-global.prefa = ['👩‍💻','-','.','🐦','🐤','🗿']
+global.prefa = ['-','.','🐦','🐤','🗿']//prefix
 global.sp = '⭔'
 global.mess = {
     success: 'kingsley 👩‍💻 Done ✓',
