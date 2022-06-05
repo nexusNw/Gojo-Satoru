@@ -19,11 +19,11 @@ global.APIKeys = {
 }
 
 //customize settings\\
-global.owner = ['Your Number']
-global.premium = ['Your Number']
-global.ownernomer = 'Your Number'
-global.ownername = '🐦Star Boy Nexus'
-global.botname = 'Gojo-Satoru'
+global.owner = ['94704421161']
+global.premium = ['94704421161']
+global.ownernomer = '94704421161'
+global.ownername = '🆂🅰🅳🅸🆈🅰 🅱🆁🅾'
+global.botname = 'ᴀʟᴘʜᴀ ǫᴜᴇᴇɴ'
 global.footer = '©NexusNwInc.'
 global.ig = 'https://github.com/nexusNw'
 global.region = 'India, South India, Kerala'
@@ -35,15 +35,15 @@ global.sessionName = 'session'
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
 global.mess = {
-    success: 'Done ✓',
-    admin: 'This Feature Is Only For Admin!',
+    success: 'Done ✓(හරි(ᴍɪɴ ᴛᴇᴄʜ ᴅᴇᴠᴇʟᴏᴘᴇʀ sᴀᴅᴇᴇsʜᴀ)',
+    admin: 'This Feature Is Only For Admin! _(Adminලට විතරයි හුත්තො 😂)_',
     botAdmin: 'Bot Must Be Admin First!',
     owner: 'This Feature Is Only For Owner!',
     group: 'Feature Used Only For Groups!',
     private: 'Features Used Only For Private Chat!',
     bot: 'This Feature Is Only For Bot',
-    wait: 'Wait A minute...',
-    error: 'Error! Maybe Api Key Is Expired🤔!',
+    wait: 'Wait A minute... _(පොඩ්ඩක් හිටපං 😏_',
+    error: 'Error! Maybe Api Key Is Expired🤔! _(අවුලක් සගෝ...ආයෙ ඉල්ලන්න එපා...😏)_',
     endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
 }
     global.limitawal = {
