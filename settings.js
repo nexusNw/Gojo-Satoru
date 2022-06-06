@@ -22,17 +22,17 @@ global.APIKeys = {
 global.owner = ['94704421161']
 global.premium = ['94704421161']
 global.ownernomer = '94704421161'
-global.ownername = '🆂🅰🅳🅸🆈🅰 🅱🆁🅾'
+global.ownername = '🆂🅰🅳🅴🅴🆂🅷🅰'
 global.botname = 'ᴀʟᴘʜᴀ ǫᴜᴇᴇɴ'
 global.footer = '©NexusNwInc.'
-global.ig = 'https://github.com/nexusNw'
-global.region = 'India, South India, Kerala'
+global.ig = 'https://github.com/sadiyamin'
+global.region = 'Sri Lankan, South , Walasmulla'
 global.sc = 'https://github.com/nexusNw/Gojo-Satoru'
 global.myweb = 'https://youtube.com/channel/UCqoUjPvDdb0kjXNYdvPPpHQ'
 global.packname = 'Gojo-Satoru'
 global.author = '🐦Star Boy Nexus'
 global.sessionName = 'session'
-global.prefa = ['','!','.','🐦','🐤','🗿']
+global.prefa = ['','!','.','📚','🐤','🗿']
 global.sp = '⭔'
 global.mess = {
     success: 'Done ✓(හරි(ᴍɪɴ ᴛᴇᴄʜ ᴅᴇᴠᴇʟᴏᴘᴇʀ sᴀᴅᴇᴇsʜᴀ)',
@@ -42,7 +42,7 @@ global.mess = {
     group: 'Feature Used Only For Groups!',
     private: 'Features Used Only For Private Chat!',
     bot: 'This Feature Is Only For Bot',
-    wait: 'Wait A minute... _(පොඩ්ඩක් හිටපං 😏_',
+    wait: 'Wait A minute... _(පොඩ්ඩක් හිටපං 😏)_',
     error: 'Error! Maybe Api Key Is Expired🤔! _(අවුලක් සගෝ...ආයෙ ඉල්ලන්න එපා...😏)_',
     endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
 }
