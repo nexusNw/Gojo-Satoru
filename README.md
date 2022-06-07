@@ -105,6 +105,7 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 |   Searching     |       ✅      |
 |   Textpro     |       ✅      |
 |   Ephoto     |       ✅     |
+|   Primbon     |       ✅     |
 |   Anime Web     |       ✅      |
 |   Stalker     |       ✅      |
 |   Random Text     |       ✅     |
