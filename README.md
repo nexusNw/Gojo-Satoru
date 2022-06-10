@@ -38,7 +38,7 @@ Add FFmpeg to PATH environment variable
 <!-- Start via Heroku -->
 <b><details><summary>Start via Heroku</summary></b>
 
-* Scan QR In Your Whatsapp From [Here]([https://replit.com/@SohanMathisha/andMathiyaDragonXQr?v=1])
+* Scan QR In Your Whatsapp From [Here][https://replit.com/@SohanMathisha/andMathiyaDragonXQr?v=1]
 * Fork This Repo By Clicking [Here](https://github.com/nexusNw/Gojo-Satoru/fork)
 * then Deploy The Bot From [Here](https://heroku.com/deploy)
 * Wait 5-10 Min To Deploy 
