@@ -1,5 +1,5 @@
 <p align="center">
-<img src="Mathiyabot.jpg" alt="nz" width="350"/>
+<img src="MathiyaBot.jpg" alt="nz" width="350"/>
 </p>
 
 ## King-Mathiya
