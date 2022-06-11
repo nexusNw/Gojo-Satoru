@@ -36,6 +36,9 @@ global.author = '𝑺𝜥𝑺 𝐵𝜣𝑻⁩ 972522712297'
 
 
 
+
+
+
 global.sessionName = 'session'
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
