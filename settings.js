@@ -30,12 +30,12 @@ global.region = 'India, South India, Kerala'
 global.sc = 'https://github.com/syam2k6/Gojo-Satoru'
 global.myweb = 'https://youtube.com/channel'
 global.packname = 'sticker by _sks_boss_'
-global.author = '𝑺𝜥𝑺 𝐵𝜣𝑻⁩
-	+972 52-271-2297
+global.author = '𝑺𝜥𝑺 𝐵𝜣𝑻⁩ 972522712297
 
-+972 52-217-2297
 
-+972 52-297-2297'
+
+
+
 global.sessionName = 'session'
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
