@@ -19,18 +19,23 @@ global.APIKeys = {
 }
 
 //customize settings\\
-global.owner = ['Your Number']
-global.premium = ['Your Number']
-global.ownernomer = 'Your Number'
-global.ownername = '🐦Star Boy Nexus'
-global.botname = 'Gojo-Satoru'
-global.footer = '©NexusNwInc.'
-global.ig = 'https://github.com/nexusNw'
+global.owner = ['wa.me/+97252-297-2297']
+global.premium = ['wa.me/+97252-217-2297']
+global.ownernomer = 'wa.me/+97252-271-2297'
+global.ownername = 'ㅤ꯭𝐒𝐘𝛥𝛭ㅤ꯭𝜥𝛬𝑅𝛵𝛨𝛪𝜥ㅤ꯭𝐒'
+global.botname = 'ꪶ٭𝑺𝜥𝑺 𝐵𝜣𝑻٭ꫂ⁩'
+global.footer = '©ㅤ꯭𝐒𝐘𝛥𝛭ㅤ꯭𝜥𝛬𝑅𝛵𝛨𝛪𝜥ㅤ꯭𝐒.'
+global.ig = 'https://github.com/syam2k6'
 global.region = 'India, South India, Kerala'
-global.sc = 'https://github.com/nexusNw/Gojo-Satoru'
-global.myweb = 'https://youtube.com/channel/UCqoUjPvDdb0kjXNYdvPPpHQ'
-global.packname = 'Gojo-Satoru'
-global.author = '🐦Star Boy Nexus'
+global.sc = 'https://github.com/syam2k6/Gojo-Satoru'
+global.myweb = 'https://youtube.com/channel'
+global.packname = 'sticker by _sks_boss_'
+global.author = 'ꪶ٭𝑺𝜥𝑺 𝐵𝜣𝑻٭ꫂ⁩
+	+972 52-271-2297
+
++972 52-217-2297
+
++972 52-297-2297'
 global.sessionName = 'session'
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
