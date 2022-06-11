@@ -19,9 +19,9 @@ global.APIKeys = {
 }
 
 //customize settings\\
-global.owner = ['wa.me/+97252-297-2297']
-global.premium = ['wa.me/+97252-217-2297']
-global.ownernomer = 'wa.me/+97252-271-2297'
+global.owner = ['+972522972297']
+global.premium = ['+97252-217-2297']
+global.ownernomer = '+97252-271-2297'
 global.ownername = 'ㅤ꯭𝐒𝐘𝛥𝛭ㅤ꯭𝜥𝛬𝑅𝛵𝛨𝛪𝜥ㅤ꯭𝐒'
 global.botname = '𝑺𝜥𝑺 𝐵𝜣𝑻'
 global.footer = '©ㅤ꯭𝐒𝐘𝛥𝛭ㅤ꯭𝜥𝛬𝑅𝛵𝛨𝛪𝜥ㅤ꯭𝐒.'
