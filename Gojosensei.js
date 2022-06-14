@@ -243,7 +243,7 @@ const reply = (teks) => {
 	  //antilink\\
         if (db.data.chats[m.chat].antilink) {
         if (budy.match(`chat.whatsapp.com`)) {
-        reply(`「 ANTI LINK 」\n\nYou have been detected sending a group link, sorry you will be kicked !`)
+        reply(`「 ANTI LINK 」\n\nYou have been detected sending a group link, sorry you will be kicked !(සමූහයෙන් නෙරපා දමන ලදි`)
         if (!isBotAdmins) return reply(`I Am Not An Admin, How Could I Kick Somebody Who Send Link 😒`)
         let gclink = (`https://chat.whatsapp.com/`+await GojoMdNx.groupInviteCode(m.chat))
         let isLinkThisGc = new RegExp(gclink, 'i')
@@ -1757,22 +1757,22 @@ break
                     await sleep(1500)
                     let btn = [{
                                 urlButton: {
-                                    displayText: 'Script🔖',
+                                    displayText: 'ස්ක්‍රිප්ට්🔖',
                                     url: `${sc}`
                                 }
                             }, {
                                 urlButton: {
-                                    displayText: 'YouTube📍',
+                                    displayText: 'යූ තියුබ්📍',
                                     url: `${myweb}`
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '🎀Menu🎀',
+                                    displayText: '🎀මෙනූ🎀',
                                     id: 'menu'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: '👤සදීෂ🙈👤',
                                     id: 'owner'
                                 }
                             }]
@@ -1791,22 +1791,22 @@ break
 		    await sleep(1500)
 		    let btn = [{
                                 urlButton: {
-                                    displayText: 'Script🔖',
+                                    displayText: 'ස්ක්‍රිප්ට්🔖',
                                     url: `${sc}`
                                 }
                             }, {
                                 urlButton: {
-                                    displayText: 'YouTube📍',
+                                    displayText: 'යූ ටියුබ්📍',
                                     url: `${myweb}`
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '🎀Menu🎀',
+                                    displayText: '🎀මෙනූ🎀',
                                     id: 'menu'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: '👤සදීෂ👤',
                                     id: 'owner'
                                 }
                             }]
@@ -2045,9 +2045,9 @@ break
                 google({'query': text}).then(res => {
                 let teks = `Google Search Title : ${text}\n\n`
                 for (let g of res) {
-                teks += `🐦 *Title* : ${g.title}\n`
-                teks += `🐦 *Description* : ${g.snippet}\n`
-                teks += `🐦 *Link* : ${g.link}\n\n────────────────────────\n\n`
+                teks += `🎧 *Title* : ${g.title}\n`
+                teks += `📚 *Description* : ${g.snippet}\n`
+                teks += `🎀 *Link* : ${g.link}\n\n────────────────────────\n\n`
                 } 
                 reply(teks)
                 })
@@ -2087,16 +2087,16 @@ break
                 let buttonMessage = {
                     image: { url: anu.thumbnail },
                     caption: `
-🐦 Title : ${anu.title}
-🐦 Ext : Search
-🐦 ID : ${anu.videoId}
-🐦 Duration : ${anu.timestamp}
-🐦 Viewes : ${anu.views}
-🐦 Uploaded On : ${anu.ago}
-🐦 Author : ${anu.author.name}
-🐦 Channel : ${anu.author.url}
-🐦 Description : ${anu.description}
-🐦 Url : ${anu.url}`,
+🎧 Title : ${anu.title}
+🎈 Ext : Search
+🔖 ID : ${anu.videoId}
+⌛ Duration : ${anu.timestamp}
+👀 Viewes : ${anu.views}
+🕺🏻 Uploaded On : ${anu.ago}
+📎 Author : ${anu.author.name}
+📑 Channel : ${anu.author.url}
+📝 Description : ${anu.description}
+✒️ Url : ${anu.url}`,
                     footer: GojoMdNx.user.name,
                     buttons: buttons,
                     headerType: 4
@@ -2828,11 +2828,11 @@ case 'webtonsearch': case 'webtoon':
 		    let buttonMessage = {
 		        image: { url: anu.author.profilePic },
 			caption: `
-🐦 Title : ${anu.title}
-🐦 Author : ${anu.author.name}
-🐦 Like : ${anu.like}
-🐦 Caption : ${anu.caption}
-🐦 Url : ${anu.media[0]}
+🎧 Title : ${anu.title}
+🎈 Author : ${anu.author.name}
+📎 Like : ${anu.like}
+🎀 Caption : ${anu.caption}
+✒️ Url : ${anu.media[0]}
 To Download Media, Please Click One Of The Buttons Below Or Enter The ytmp3/ytmp4 Command With The Url Above
 `,
 			footer: GojoMdNx.user.name,
