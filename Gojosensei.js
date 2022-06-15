@@ -2053,7 +2053,7 @@ break
                 })
                 }
                 break
-        case 'gimage': case 'googleimage': {
+        case 'gimage': case 'img': {
         if (!text) return reply(`Example : ${prefix + command} gojo`)
         let gis = require('g-i-s')
         gis(text, async (error, result) => {
@@ -2123,7 +2123,7 @@ break
                 GojoMdNx.sendMessage(m.chat, { video: { url: media.dl_link }, mimetype: 'video/mp4', fileName: `${media.title}.mp4`, caption: `🐦 Title : ${media.title}\n🐦 File Size : ${media.filesizeF}\n🐦 Url : ${isUrl(text)}\n🐦 Ext : MP3\n🐦 Resolution : ${args[1] || '360p'}` }, { quoted: m })
             }
             break
-	    case 'getmusicxxx': {
+	    case 'getmusics': {
                 let { yta } = require('./lib/y2mate')
 		let urls = quoted.text.match(new RegExp(/(?:https?:\/\/)?(?:youtu\.be\/|(?:www\.|m\.)?youtube\.com\/(?:watch|v|embed|shorts)(?:\.php)?(?:\?.*v=|\/))([a-zA-Z0-9\_-]+)/, 'gi'))
                 let quality = args[1] ? args[1] : '128kbps'
@@ -2133,7 +2133,7 @@ break
                 GojoMdNx.sendMessage(m.chat, { audio: { url: media.dl_link }, mimetype: 'audio/mpeg', fileName: `${media.title}.mp3` }, { quoted: m })
             }
             break
-            case 'getvideoxxx': {
+            case 'getvideos': {
                 let { ytv } = require('./lib/y2mate')
                 if (!text) throw `Example : ${prefix + command} 1`
                 if (!m.quoted) throw 'Reply Message'
@@ -2146,7 +2146,7 @@ break
                 GojoMdNx.sendMessage(m.chat, { video: { url: media.dl_link }, mimetype: 'video/mp4', fileName: `${media.title}.mp4`, caption: `🐦 Title : ${media.title}\n🐦 File Size : ${media.filesizeF}\n🐦 Url : ${urls[text - 1]}\n🐦 Ext : MP3\n🐦 Resolution : ${args[1] || '360p'}` }, { quoted: m })
             }
             break
-            case 'pinterest': {
+            case 'pindown': {
                 reply(mess.wait)
 		let { pinterest } = require('./lib/scraper')
                 anu = await pinterest(text)
@@ -2154,7 +2154,7 @@ break
                 GojoMdNx.sendMessage(m.chat, { image: { url: result }, caption: '🐦 Media Url : '+result }, { quoted: m })
             }
             break
-case 'webtonsearch': case 'webtoon':
+case 'webtonsearch': case 'webbutton':
                 if (!text) return reply('What Are you Looking For??')
                 await reply(mess.wait)
                 nexusnw.Webtoons(q).then(async data => {
@@ -2189,7 +2189,7 @@ case 'webtonsearch': case 'webtoon':
                     reply(mess.error)
                 })
             break
-            case 'animexxx':{
+            case 'animesrc':{
                 if (!text) return reply(`What Anime Are You Looking For??`)
                 await reply(mess.wait)
                 nexusnw.Anime(q).then(async data => {
@@ -2676,7 +2676,7 @@ case 'webtonsearch': case 'webtoon':
                 }
             }
             break
-	        case 'tiktokd': case 'tiktoknowmx': {
+	        case 'tiktokd': case 'tiktoknwm': {
                 if (!text) return reply(`Enter Query Link!`)
                 reply(mess.wait)
                 let anu = await fetchJson(api('zenz', '/downloader/tiktok', { url: text }, 'apikey'))
@@ -2694,7 +2694,7 @@ case 'webtonsearch': case 'webtoon':
                 GojoMdNx.sendMessage(m.chat, buttonMessage, { quoted: m })
             }
             break
-            case 'tiktokwmx': case 'tiktokwatermarkx': {
+            case 'tiktokwmx': case 'tiktokwm': {
                 if (!text) return reply(`Enter Query Link!`)
                 reply(mess.wait)
                 let anu = await fetchJson(api('zenz', '/downloader/tiktok', { url: text }, 'apikey'))
@@ -2712,7 +2712,7 @@ case 'webtonsearch': case 'webtoon':
                 GojoMdNx.sendMessage(m.chat, buttonMessage, { quoted: m })
             }
             break
-            case 'tiktokmp3x': case 'tiktokaudiox': {
+            case 'tiktokmp3x': case 'tiktok3': {
                 if (!text) return reply(`Enter Query Link!`)
                 reply(mess.wait)
                 let anu = await fetchJson(api('zenz', '/downloader/musically', { url: text }, 'apikey'))
@@ -2743,7 +2743,7 @@ case 'webtonsearch': case 'webtoon':
             }
             break
 		//Backup, for example, the video above doesn't come out\\
-		case 'igeh': case 'instagram2x': case 'ig2': case 'igdl2': {
+		case 'igeh': case 'instagram2x': case 'ig2': case 'ig4': {
                 if (!text) return reply(`Enter Query Link!`)
                 reply(mess.wait)
                 
@@ -2767,7 +2767,7 @@ case 'webtonsearch': case 'webtoon':
                 GojoMdNx.sendMessage(m.chat, { audio: { url: anu.result.url }, mimetype: 'audio/mpeg', fileName: anu.result.title+'.m4a' }, { quoted: msg })
             }
             break
-	        case 'twitdlx': case 'twitterx': {
+	        case 'twitdlx': case 'twt3': {
                 if (!text) return reply(`Enter Query Link!`)
                 reply(mess.wait)
                 let anu = await fetchJson(api('zenz', '/api/downloader/twitter', { url: text }, 'apikey'))
@@ -2784,7 +2784,7 @@ case 'webtonsearch': case 'webtoon':
                 GojoMdNx.sendMessage(m.chat, buttonMessage, { quoted: m })
             }
             break
-            case 'twittermp3x': case 'twitteraudiox': {
+            case 'twittermp3x': case 'twt4': {
                 if (!text) return reply(`Enter Query Link!`)
                 reply(mess.wait)
                 let anu = await fetchJson(api('zenz', '/api/downloader/twitter', { url: text }, 'apikey'))
@@ -2802,7 +2802,7 @@ case 'webtonsearch': case 'webtoon':
                 GojoMdNx.sendMessage(m.chat, { audio: { url: anu.result.audio } }, { quoted: msg })
             }
             break
-	        case 'fbdlx': case 'fbx': case 'facebookx': {
+	        case 'fb4': case 'fbx': case 'facebookx': {
                 if (!text) return reply(`Enter Query Link!`)
                 reply(mess.wait)
                 let anu = await fetchJson(api('zenz', '/api/downloader/facebook', { url: text }, 'apikey'))
