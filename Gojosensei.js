@@ -1334,7 +1334,7 @@ case 'halah': case 'hilih': case 'huluh': case 'heleh': case 'holoh':
             tex = m.quoted ? m.quoted.text ? m.quoted.text : q ? q : m.text : q ? q : m.text
             reply(tex.replace(/[aiueo]/g, ter).replace(/[AIUEO]/g, ter.toUpperCase()))
             break
-            case 'reactxxx': {
+            case 'react': {
                 if (!isCreator) return replay(`${mess.owner}`)
                 reactionMessage = {
                     react: {
@@ -1364,7 +1364,7 @@ case 'halah': case 'hilih': case 'huluh': case 'heleh': case 'holoh':
                if (!text) return replay(`Example : ${prefix + command} packname|author`)
           global.packname = text.split("|")[0]
           global.author = text.split("|")[1]
-          reply(`Exif Has Been Successfully Changed to\n\n🐦 Packname : ${global.packname}\n🐦 Author : ${global.author}`)
+          reply(`Exif Has Been Successfully Changed to\n\n🎖️️ Packname : ${global.packname}\n🎖️️ Author : ${global.author}`)
             }
             break
 	case 'kick': {
@@ -1456,7 +1456,7 @@ let teks = `╚»˙·٠•●♥ Tag All ♥●•٠·˙«╝
  
  ➲ *Message : ${q ? q : 'no message'}*\n\n`
                 for (let mem of participants) {
-                teks += `🐦 @${mem.id.split('@')[0]}\n`
+                teks += `🎖️️ @${mem.id.split('@')[0]}\n`
                 }
                 GojoMdNx.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, { quoted: m })
                 }
@@ -1476,7 +1476,7 @@ let teks = `╚»˙·٠•●♥ Tag All ♥●•٠·˙«╝
                 let anu = await styletext(text)
                 let teks = `Entered Text ${text}\n\n`
                 for (let i of anu) {
-                    teks += `🐦 *${i.name}* : ${i.result}\n\n`
+                    teks += `🎖️️ *${i.name}* : ${i.result}\n\n`
                 }
                 reply(teks)
 	    }
@@ -1598,7 +1598,7 @@ ${vote[m.chat][2].map((v, i) => `┃╠ ${i + 1}. @${v.split`@`[0]}`).join('\n')
             ]
 
             let buttonMessageDevote = {
-                text: teks_vote,
+                text: tek.s_vote,
                 footer: GojoMdNx.user.name,
                 buttons: buttonsDevote,
                 headerType: 1,
@@ -1767,12 +1767,12 @@ break
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '🎀Menu🎀',
+                                    displayText: 'Menu 📋',
                                     id: 'menu'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: 'Owner 👤',
                                     id: 'owner'
                                 }
                             }]
@@ -1801,12 +1801,12 @@ break
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '🎀Menu🎀',
+                                    displayText: 'Menu 📋',
                                     id: 'menu'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: 'Owner 👤',
                                     id: 'owner'
                                 }
                             }]
@@ -1858,7 +1858,7 @@ break
                  GojoMdNx.sendTextWithMentions(m.chat, teks, m)
              }
              break
-             case 'listonlinexxx': case 'onlinelistxxx': {
+             case 'listonline': case 'onlinelist': {
                     let id = args && /\d+\-\d+@g.us/.test(args[0]) ? args[0] : m.chat
                     let online = [...Object.keys(store.presences[id]), botNumber]
                     GojoMdNx.sendText(m.chat, 'Online List:\n\n' + online.map(v => '🐦 @' + v.replace(/@.+/, '')).join`\n`, m, { mentions: online })
@@ -1881,7 +1881,7 @@ break
                 }
             }
             break
-case 'smemex': case 'stickermemex': case 'stickmemex': {
+case 'smemex': case 'stickermemex': case 'stickmeme': {
 let { TelegraPh } = require('./lib/uploader')
 if (!text) return reply(`Send/Reply Photo With Caption ${prefix + command} *Text*`)
 if (text.includes('|')) return reply(`Send/Reply Photo With Caption ${prefix + command} *Text*`)
@@ -1910,7 +1910,7 @@ break
             reply(db)
         }
         break
-            case 'emojimix': {
+            case 'emojimix': case 'emomix': {
 	        if (!text) return replay(`Example : ${prefix + command} 😅+🤔`)
 		let [emoji1, emoji2] = text.split`+`
 		let anu = await fetchJson(`https://tenor.googleapis.com/v2/featured?key=AIzaSyAyimkuYQYF_FXVALexPuGQctUWRURdCYQ&contentfilter=high&media_filter=png_transparent&component=proactive&collection=emoji_kitchen_v5&q=${encodeURIComponent(emoji1)}_${encodeURIComponent(emoji2)}`)
@@ -2034,7 +2034,7 @@ break
                 let teks = 'YouTube Search\n\n Result From '+text+'\n\n'
                 let no = 1
                 for (let i of search.all) {
-                    teks += `🐦 No : ${no++}\n🐦 Type : ${i.type}\n🐦 Video ID : ${i.videoId}\n🐦 Title : ${i.title}\n🐦 Views : ${i.views}\n🐦 Duration : ${i.timestamp}\n🐦 Uploaded On : ${i.ago}\n🐦 Author : ${i.author.name}\n🐦 Url : ${i.url}\n\n─────────────────\n\n`
+                    teks += `🎖️️ No : ${no++}\n🎖️️ Type : ${i.type}\n🎖️️ Video ID : ${i.videoId}\n🎖️️ Title : ${i.title}\n🎖️️ Views : ${i.views}\n🎖️️ Duration : ${i.timestamp}\n🎖️️ Uploaded On : ${i.ago}\n🎖️️ Author : ${i.author.name}\n🎖️️ Url : ${i.url}\n\n─────────────────\n\n`
                 }
                 GojoMdNx.sendMessage(m.chat, { image: { url: search.all[0].thumbnail },  caption: teks }, { quoted: m })
             }
@@ -2045,9 +2045,9 @@ break
                 google({'query': text}).then(res => {
                 let teks = `Google Search Title : ${text}\n\n`
                 for (let g of res) {
-                teks += `🐦 *Title* : ${g.title}\n`
-                teks += `🐦 *Description* : ${g.snippet}\n`
-                teks += `🐦 *Link* : ${g.link}\n\n────────────────────────\n\n`
+                teks += `🎖️️ *Title* : ${g.title}\n`
+                teks += `🎖️️ *Description* : ${g.snippet}\n`
+                teks += `🎖️️ *Link* : ${g.link}\n\n────────────────────────\n\n`
                 } 
                 reply(teks)
                 })
@@ -2065,7 +2065,7 @@ break
                 let buttonMessage = {
                     image: { url: images },
                     caption: `*-------「 GIMAGE SEARCH 」-------*
-🤠 *Query* : ${text}
+🔍 *Query* : ${text}
 🔗 *Media Url* : ${images}`,
                     footer: GojoMdNx.user.name,
                     buttons: buttons,
@@ -2081,22 +2081,22 @@ break
                 let search = await yts(text)
                 let anu = search.videos[Math.floor(Math.random() * search.videos.length)]
                 let buttons = [
-                    {buttonId: `ytmp3 ${anu.url}`, buttonText: {displayText: '🎶Audio🎶'}, type: 1},
-                    {buttonId: `ytmp4 ${anu.url}`, buttonText: {displayText: '📽️Video📽️'}, type: 1}
+                    {buttonId: `ytmp3 ${anu.url}`, buttonText: {displayText: 'Audio'}, type: 1},
+                    {buttonId: `ytmp4 ${anu.url}`, buttonText: {displayText: 'Video'}, type: 1}
                 ]
                 let buttonMessage = {
                     image: { url: anu.thumbnail },
                     caption: `
-🐦 Title : ${anu.title}
-🐦 Ext : Search
-🐦 ID : ${anu.videoId}
-🐦 Duration : ${anu.timestamp}
-🐦 Viewes : ${anu.views}
-🐦 Uploaded On : ${anu.ago}
-🐦 Author : ${anu.author.name}
-🐦 Channel : ${anu.author.url}
-🐦 Description : ${anu.description}
-🐦 Url : ${anu.url}`,
+🎖️️ Title : ${anu.title}
+🎖️️ Ext : Search
+🎖️️ ID : ${anu.videoId}
+🎖️️ Duration : ${anu.timestamp}
+🎖️️ Viewes : ${anu.views}
+🎖️️ Uploaded On : ${anu.ago}
+🎖️️ Author : ${anu.author.name}
+🎖️️ Channel : ${anu.author.url}
+🎖️️ Description : ${anu.description}
+🎖️️ Url : ${anu.url}`,
                     footer: GojoMdNx.user.name,
                     buttons: buttons,
                     headerType: 4
@@ -2214,7 +2214,7 @@ case 'webtonsearch': case 'webbutton':
                 })
                 }
             break
-            case 'characterxxx': case 'karakterxxx':
+            case 'acharacter': case 'karakterxxx':
                 if (!text) return reply(`What Anime Character Are You Looking For??`)
                 await reply(mess.wait)
                 nexusnw.Character(q).then(async data => {
@@ -2289,7 +2289,7 @@ case 'webtonsearch': case 'webbutton':
                 GojoMdNx.sendMessage(m.chat, buttonMessage, { quoted: m })
             }
             break
-            case 'wallpaper': {
+            case 'wallpaper': case 'wp': {
                 if (!text) return reply(`Enter Query Title`)
 		let { wallpaper } = require('./lib/scraper')
                 anu = await wallpaper(text)
@@ -3322,17 +3322,17 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '☕All Menu☕',
+                                    displayText: 'All Menu 📋',
                                     id: `${prefix}allmenu`
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: '🍦List Menu🍦',
+                                    displayText: 'List Menu 🧾',
                                     id: `${prefix}command`
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: '🍬Owner🍬',
+                                    displayText: 'Owner 📬',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -3382,12 +3382,12 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'All Menu🎉',
+                                    displayText: 'All Menu 📋',
                                     id: `${prefix}allmenu`
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: 'List Menu⭐',
+                                    displayText: 'List Menu 🧾',
                                     id: `${prefix}command`
                                 }
                                 }, {
