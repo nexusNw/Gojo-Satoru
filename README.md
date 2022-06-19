@@ -140,3 +140,6 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 
 
 License: [MIT](https://github.com/Gojo-Satoru/LICENSE)
+
+	
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FnexusNw%2FGojo-Satoru&template=https%3A%2F%2Fgithub.com%2FRandilsaha%2FGojo-Satoru)
