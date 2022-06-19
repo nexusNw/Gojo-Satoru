@@ -2105,12 +2105,12 @@ break
             }
             break
 	case 'ytvd'
-		let yts = reqire ("yt-search")
+		if (!text) return reply(`Example : ${prefix} + {command} Stay`)
 		let search = await yts(text)
 		let anu =search.videos[Math.floor(Math.random() * search.videos.length)]
 		let buttons = [
 			{buttonId: `ytmp4 ${anu.url}360p`. buttonText : {displayText: '360p'}. type:1}.
-			{buttonId: `ytmp4 ${anu.url}480p`. buttonText : {displayText: '480p'}. type:1}
+			{ButtonId: `ytmp4 ${anu.url}480p`. buttonText : {displayText: '480p'}. type:1}
 			{buttonId: `ytmp4 ${anu.url}720p`. buttonText : {displayText: '720p'}. type:1}
     ]
     let buttonmassege = {
