@@ -2106,21 +2106,21 @@ break
             break
 	case 'ytvd'
 		if (!text) return reply(`Example : ${prefix} + {command} Stay`)
-		let search = await yts(text)
+		let search = await ytmp4(text)
 		let anu =search.videos[Math.floor(Math.random() * search.videos.length)]
 		let buttons = [
-			{buttonId: `ytmp4 ${anu.url}360p`. buttonText : {displayText: '360p'}. type:1}.
-			{ButtonId: `ytmp4 ${anu.url}480p`. buttonText : {displayText: '480p'}. type:1}
-			{buttonId: `ytmp4 ${anu.url}720p`. buttonText : {displayText: '720p'}. type:1}
+			{buttonId: `ytmp4 ${anu.url}360p`, buttonText : {displayText: '360p'}. type:1},
+			{ButtonId: `ytmp4 ${anu.url}480p`, buttonText : {displayText: '480p'}. type:1},
+			{buttonId: `ytmp4 ${anu.url}720p`, buttonText : {displayText: '720p'}. type:1}
     ]
     let buttonmassege = {
 	    image: { url: anu.thumbnail }.
-	    caption: `testonly`
-	             footer: GojoMdNx.user.name,
+	    caption: `queen (bot name) youtube downloader`,
+	             footer : nepppp,
 	             buttons: buttons,
-	             headertype: 4
+	             headertype: 4,
                  }
-                  GogoMdNx.sendMassege(m.chat, buttonmassege, { quoted: m })
+                  GojoMdNx.sendMassege(m.chat, buttonmassege, { quoted: m })
             }
 	    break
 	    case 'ytmp3': case 'getmusic': case 'yta': {
