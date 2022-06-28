@@ -3365,13 +3365,6 @@ reply("Success Changing Menu To "+q)
 typemenu = 'catalog'
 reply("Success Changing Menu To "+q)
 }
-break
-                    case 'bug': case 'report': {
-                    	if(!text) return reply(`Enter The Bug\n\nExample: ${command} Menu Error`)
-                    	GojoMdNx.sendMessage(`918129624395@s.whatsapp.net`, {text: `*Bug Report From:* wa.me/${m.sender.split("@")[0]}
-Report Message: ${text}` })
-reply(`Successfully Reported To The Owner\n\nPlease Make Sure The Bug Is Valid, If You Play With This, Use This Feature Again And Again For No Reason, You Will Be Blocked For Sure !`)
-                    }
                     break
                      case 'alive': case 'bot':{
                            	timestampe = speed();
