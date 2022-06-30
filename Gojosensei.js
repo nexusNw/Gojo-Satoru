@@ -3365,6 +3365,7 @@ reply("Success Changing Menu To "+q)
 typemenu = 'catalog'
 reply("Success Changing Menu To "+q)
 }
+
                     break
                      case 'alive': case 'bot':{
                            	timestampe = speed();
