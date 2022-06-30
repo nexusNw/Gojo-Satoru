@@ -19,32 +19,32 @@ global.APIKeys = {
 }
 
 //customize settings\\
-global.owner = ['Your Number']
-global.premium = ['Your Number']
-global.ownernomer = 'Your Number'
-global.ownername = '🐦Star Boy Nexus'
-global.botname = 'Gojo-Satoru'
-global.footer = '©NexusNwInc.'
-global.ig = 'https://github.com/nexusNw'
-global.region = 'India, South India, Kerala'
-global.sc = 'https://github.com/nexusNw/Gojo-Satoru'
-global.myweb = 'https://youtube.com/channel/UCqoUjPvDdb0kjXNYdvPPpHQ'
-global.packname = 'Gojo-Satoru'
-global.author = '🐦Star Boy Nexus'
+global.owner = ['51931263982']
+global.premium = ['48699543952']
+global.ownernomer = '51931263982'
+global.ownername = 'Viggo Tarasov'
+global.botname = 'ROCKET-V2🚀'
+global.footer = '©Ⓥⓘⓖⓖⓞ🥷🏻'
+global.ig = 'https://github.com'
+global.region = 'República de AQP'
+global.sc = 'https://github.com'
+global.myweb = 'https://youtube.com'
+global.packname = 'ROCKET-V2🚀'
+global.author = 'VIGGO😎😈'
 global.sessionName = 'session'
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
 global.mess = {
     success: 'Done ✓',
-    admin: 'This Feature Is Only For Admin!',
-    botAdmin: 'Bot Must Be Admin First!',
-    owner: 'This Feature Is Only For Owner!',
-    group: 'Feature Used Only For Groups!',
-    private: 'Features Used Only For Private Chat!',
-    bot: 'This Feature Is Only For Bot',
-    wait: 'Wait A minute...',
-    error: 'Error! Maybe Api Key Is Expired🤔!',
-    endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
+    admin: '❌ SILENCIO MIEMBRO COMÚN NO TIENE MORAL PARA USAR ESTE COMANDO ❌',
+    botAdmin: '¡CÓMO CARAJOS VOY HACER ESO, SI NO SOY ADMIN🤦🏻‍♂️!!!',
+    owner: '❌ ¡Este comando solo puede usar mi jefe! ❌',
+    group: '¡Esta característica es solo para grupos!',
+    private: '¡Esta función es solo para chats privados!',
+    bot: '❌ Solo yo puedo usar esta función',
+    wait: 'Espera un momento...',
+    error: '¡Error! Tal vez la clave Api haya expirado🤔!',
+    endLimit: 'Su límite diario ha expirado, el límite se restablecerá cada 12 horas',
 }
     global.limitawal = {
     premium: "Infinity",
