@@ -148,8 +148,6 @@ Tol = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeURICom
 ⭐✑ 𝗛𝗼𝗹𝗮 👋🏻 @${num.split("@")[0]},
 ⭐✑ 𝗕𝗶𝗲𝗻𝘃𝗲𝗻𝗶𝗱𝗼 𝗮𝗹 𝗴𝗿𝘂𝗽𝗼 ${metadata.subject}
 
-⭐✑ Description: ${metadata.desc}
-
 ⭐✑ Bienvenido al grupo😋, A veces ruidoso😜, generalmente desordenado🤥, lleno de amor🥰,MY HOME😌!!`} )
                 } else if (anu.action == 'remove') {
                     GojoMdNx.sendMessage(anu.id, { image: Tol, contextInfo: { mentionedJid: [num] }, caption: `⭐✑ @${num.split("@")[0]} Left ${metadata.subject}
