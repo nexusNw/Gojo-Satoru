@@ -145,14 +145,14 @@ Kon = await getBuffer(`https://hardianto.xyz/api/welcome3?profile=${encodeURICom
 Tol = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeURIComponent(ppuser)}&name=${encodeURIComponent(nama)}&bg=https://telegra.ph/file/8bbe8a7de5c351dfcb077.jpg&namegb=${encodeURIComponent(metadata.subject)}&member=${encodeURIComponent(memb)}`)
                 if (anu.action == 'add') {
                     GojoMdNx.sendMessage(anu.id, { image: Kon, contextInfo: { mentionedJid: [num] }, caption: `
-⭐✑ 𝗛𝗼𝗹𝗮 👋🏻 @${num.split("@")[0]},
-⭐✑ 𝗕𝗶𝗲𝗻𝘃𝗲𝗻𝗶𝗱𝗼 𝗮𝗹 𝗴𝗿𝘂𝗽𝗼 ${metadata.subject}
+✑ 𝗛𝗼𝗹𝗮 👋🏻 @${num.split("@")[0]},
+✑ 𝗕𝗶𝗲𝗻𝘃𝗲𝗻𝗶𝗱𝗼 𝗮𝗹 𝗴𝗿𝘂𝗽𝗼 ${metadata.subject}
 
-⭐✑ Bienvenido al grupo😋, A veces ruidoso😜, generalmente desordenado🤥, lleno de amor🥰,MY HOME😌!!`} )
+✑ Disfruta tu estadia aqui, y no te olvides de leer las reglas del grupo!!!`} )
                 } else if (anu.action == 'remove') {
-                    GojoMdNx.sendMessage(anu.id, { image: Tol, contextInfo: { mentionedJid: [num] }, caption: `⭐✑ @${num.split("@")[0]} Left ${metadata.subject}
+                    GojoMdNx.sendMessage(anu.id, { image: Tol, contextInfo: { mentionedJid: [num] }, caption: `✑ 𝗔𝗱𝗶ó𝘀 @${num.split("@")[0]}
 
-⭐✑ No estoy seguro si fue una despedida, pero fue divertido mientras duró 😌, estaremos mejor sin tí` })
+✑  Estaremos mejor sin tí` })
                 }
             }
         } catch (err) {
