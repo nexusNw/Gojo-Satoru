@@ -245,7 +245,7 @@ const reply = (teks) => {
 	  //antilink\\
         if (db.data.chats[m.chat].antilink) {
         if (budy.match(`chat.whatsapp.com`)) {
-        reply(`「 ANTI LINK 」\n\nYou have been detected sending a group link, sorry you will be kicked !`)
+        reply(`「 ANTI LINK 」\n\nSe ha detectado un enlace de grupo, acá esta prohibido , serás expulsado !`)
         if (!isBotAdmins) return reply(`I Am Not An Admin, How Could I Kick Somebody Who Send Link 😒`)
         let gclink = (`https://chat.whatsapp.com/`+await GojoMdNx.groupInviteCode(m.chat))
         let isLinkThisGc = new RegExp(gclink, 'i')
@@ -571,55 +571,6 @@ In ${clockString(new Date - user.afkTime)}
             user.afkTime = -1
             user.afkReason = ''
         }
-switch(command) {
-        case 'inventori': case 'inventory': case 'profile':{
-if (q.includes('--help')) return reply(examkosong) 
-  if (!isDarah){ addInventoriDarah(m.sender, DarahAwal) }
-  if (!isInventory){ addInventori(m.sender) }
-  if (!isInventoriBuruan){ addInventoriBuruan(m.sender) }
-     
-     var GojoMdNx = await getBuffer(picak+`User's Inventory`)
-     let teksehmazeh = `_[ 👩🏻‍💼INFO USER👨🏻‍💼 ]_\n\n`
-     teksehmazeh += `*❤️Your Blood* : ${getDarah(m.sender)}\n`
-     teksehmazeh += `*◻️️Your Iron* : ${getBesi(m.sender)}\n`
-     teksehmazeh += `*🌟Your Gold* : ${getEmas(m.sender)}\n`
-     teksehmazeh += `*💎Your Emerald* : ${getEmerald(m.sender)}\n`
-     teksehmazeh += `*⏺️Your Limit* : ${getLimit(m.sender)}\n`
-     teksehmazeh += `*🧪Your Potion* : ${getPotion(m.sender)}\n\n`
-     teksehmazeh += `_[ 🐺HUNT RESULT🐺 ]_\n`
-     teksehmazeh += `*🐟Fish* : ${getIkan(m.sender)}\n`
-     teksehmazeh += `*🐔Chicken* : ${getAyam(m.sender)}\n`
-     teksehmazeh += `*🐇Rabbit* : ${getKelinci(m.sender)}\n`
-     teksehmazeh += `*🐑Sheep* : ${getDomba(m.sender)}\n`
-     teksehmazeh += `*🐄Cow* : ${getSapi(m.sender)}\n`
-     teksehmazeh += `*🐘Elephant* : ${getGajah(m.sender)}\n\n`
-     teksehmazeh += `_*${pushname}*_`
-     await GojoMdNx.send5ButImg(from, `` + '' + teksehmazeh, `© ${footer}`, GojoMdNx, [{"urlButton": {"displayText": "YouTube📍","url": `${myweb}`}}])
-  }
-  break
-        case 'userlimit': 
-{      
-   let txt = `「 *ALL LIMIT USER* 」\n\n`
-     for (let i of _limit){
-     txt += `➸ *ID :* @${i.id.split("@")[0]}\n➸ *Limit* : ${i.limit}\n`
-     }
-    reply(txt)       
-  }
- break
- case 'leaderboard':
-{      
-   let txt = `「 *LEADERBOARD* 」\n\n`
-     for (let i of _buruan){
-     txt += `➸ *ID :* ${i.id}\n`
-     txt += `*🐟Fish* : ${i.ikan}\n`
-     txt += `*🐔Chicken* : ${i.ayam}\n`
-     txt += `*🐇Rabbit* : ${i.kelinci}\n`
-     txt += `*🐑Sheep* : ${i.domba}\n`
-     txt += `*🐄Cow* : ${i.sapi}\n`
-     txt += `*🐘Elephant* : ${i.gajah}\n\n`
-     }
-    reply(txt)       
-  }
  break
 case 'mining': case 'mine':{
 if (q.includes('--help')) return reply(examkosong) 
@@ -1454,7 +1405,7 @@ case 'halah': case 'hilih': case 'huluh': case 'heleh': case 'holoh':
                 if (!m.isGroup) return replay(`${mess.group}`)
                 if (!isBotAdmins) return replay(`${mess.botAdmin}`)
                 if (!isAdmins) return replay(`${mess.admin}`)
-let teks = `╚»˙·٠•●♥ Tag All ♥●•٠·˙«╝ 
+let teks = `╚»˙·٠•●📍 INVOCANDO 📍●•٠·˙«╝ 
  
  ➲ *Message : ${q ? q : 'no message'}*\n\n`
                 for (let mem of participants) {
@@ -1759,17 +1710,12 @@ break
                     await sleep(1500)
                     let btn = [{
                                 urlButton: {
-                                    displayText: 'Script🔖',
-                                    url: `${sc}`
-                                }
-                            }, {
-                                urlButton: {
                                     displayText: 'YouTube📍',
                                     url: `${myweb}`
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '🎀Menu🎀',
+                                    displayText: '🌐Menu🌐',
                                     id: 'menu'
                                 }
                             }, {
@@ -1778,7 +1724,7 @@ break
                                     id: 'owner'
                                 }
                             }]
-                      let txt = `「 GOJO-SATORU HERE🎉 」\n\n${text}`
+                      let txt = `「 ROCKET-V2🚀 」\n\n${text}`
                       GojoMdNx.send5ButImg(i, txt, GojoMdNx.user.name, global.thumb, btn)
                     }
                 reply(`Successful Sending Broadcast To ${anu.length} Group(s)`)
@@ -1803,7 +1749,7 @@ break
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '🎀Menu🎀',
+                                    displayText: '🌐Menu🌐',
                                     id: 'menu'
                                 }
                             }, {
@@ -1812,7 +1758,7 @@ break
                                     id: 'owner'
                                 }
                             }]
-                      let txt = `「 GOJO-SATORU HERE 🎉」\n\n${text}`
+                      let txt = `「 ROCKET-V2🚀 🎉」\n\n${text}`
                       GojoMdNx.send5ButImg(yoi, txt, GojoMdNx.user.name, global.thumb, btn)
 		}
 		reply('Broadcast Success')
@@ -3378,9 +3324,9 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./GojoMedia/gojo.jpg')},
                             hydratedFooterText: `┌─❖
-│「 Hi 👋 」
+│「 𝗛𝗼𝗹𝗮 👋🏻 」
 └┬❖ 「 ${pushname} 」
-┌┤✑  Shashi burina thaicho🎉
+┌┤✑  Echa un pequeño vistazo!!!😎
 ││✑  🐦🖐️!!
 │└───────────────┈ ⳹
 │ 「 BOT INFO 」
@@ -3401,13 +3347,8 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                                     url: `${myweb}`
                                 }
                             }, {
-                            	urlButton: {
-                                displayText: 'Script🔖',
-                                    url: `${sc}`
-                                }
-                            }, {
                                 quickReplyButton: {
-                                    displayText: '🍇All Menu🍇',
+                                    displayText: '🌐   All Menu🌐 ',
                                     id: `${prefix}allmenu`
                                 }
                                 }, {
@@ -3439,9 +3380,9 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             jpegThumbnail: fs.readFileSync('./GojoMedia/gojo.jpg')}, 
                             hydratedFooterText: `
 ┌─❖
-│「 Hi 👋 」
+│「 𝗛𝗼𝗹𝗮 👋 」
 └┬❖ 「 ${pushname} 」
-┌┤✑  Daijobka sempai?😄
+┌┤✑  Como estas?😄
 │└───────────────┈ ⳹
 │ 「 BOT INFO 」
 │✙ 𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
@@ -3459,11 +3400,6 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                                 urlButton: {
                                     displayText: 'YouTube📍',
                                     url: `${myweb}`
-                                }
-                            }, {
-                            	urlButton: {
-                                displayText: 'Script🔖',
-                                    url: `${sc}`
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3623,7 +3559,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 case 'allmenu': {
   	anu = `
 ┏━「 *${botname}* 」━━⭓ 
-┃╔══☯︎「 MAIN 」☯︎
+┃╔══☯︎「💠 MAIN 」☯︎
 ┃╠ ${prefix}alive
 ┃╠ ${prefix}script
 ┃╠ ${prefix}speedtest
@@ -3637,7 +3573,7 @@ case 'allmenu': {
 ┃╠ ${prefix}listgc
 ┃╠ ${prefix}donate
 ┃╠ ${prefix}report [bug]
-┃╠══✪「 OWNER 」 ☯︎
+┃╠══✪「💠 OWNER 」 ☯︎
 ┃╠ ${prefix}chat [option]
 ┃╠ ${prefix}join [link]
 ┃╠ ${prefix}leave
@@ -3647,7 +3583,7 @@ case 'allmenu': {
 ┃╠ ${prefix}bcall [text]
 ┃╠ ${prefix}setppbot [image]
 ┃╠ ${prefix}setexif
-┃╠══✪「 GROUP 」 ☯︎      
+┃╠══✪「 💠GROUP 」 ☯︎      
 ┃╠${prefix}grouplink
 ┃╠${prefix}ephemeral [option]
 ┃╠${prefix}setgcpp [image]
@@ -3816,39 +3752,8 @@ case 'allmenu': {
 ┃╠${prefix}slow [reply aud]
 ┃╠${prefix}squirrel [reply aud]
 ┃╠══✪「 ISLAMIC 」☯︎
-┃╠${prefix}juzamma
 ┃╠══✪「 HOROSCOPE 」☯︎
-┃╠${prefix}nomorhoki (indo)
-┃╠${prefix}artimimpi (indo)
-┃╠${prefix}artinama (indo)
-┃╠${prefix}ramaljodoh (indo)
-┃╠${prefix}ramaljodohbali (indo)
-┃╠${prefix}suamiistri (indo)
-┃╠${prefix}ramalcinta (indo)
-┃╠${prefix}cocoknama (indo)
-┃╠${prefix}pasangan (indo)
-┃╠${prefix}jadiannikah (indo)
-┃╠${prefix}sifatusaha (indo)
-┃╠${prefix}rezeki (indo)
-┃╠${prefix}pekerjaan (indo)
-┃╠${prefix}nasib (indo)
-┃╠${prefix}penyakit (indo)
-┃╠${prefix}tarot (indo)
-┃╠${prefix}fengshui (indo)
-┃╠${prefix}haribaik (indo)
-┃╠${prefix}harisangar (indo)
-┃╠${prefix}harisial (indo)
-┃╠${prefix}nagahari (indo)
-┃╠${prefix}arahrezeki (indo)
-┃╠${prefix}peruntungan (indo)
-┃╠${prefix}weton (indo)
-┃╠${prefix}karakter (indo)
-┃╠${prefix}keberuntungan (indo)
-┃╠${prefix}memancing (indo)
-┃╠${prefix}masasubur (indo)
-┃╠${prefix}zodiak (indo)
-┃╠${prefix}shio (indo)
-┃╚═══════✍︎𝑁𝑒𝑥𝑢𝑠𝑁𝑤
+┃╚═══════✍︎ROCKET-V2🚀
 ┗━「 *Created By ${ownername}*  𖠌」━⭓`
     const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
