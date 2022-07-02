@@ -23,8 +23,8 @@ global.owner = ['94779062397']
 global.premium = ['94779062397']
 global.ownernomer = '94779062397'
 global.ownername = '🆂🅰🅳🅴🅴🆂🅷🅰'
-global.botname = 'ᴀʟᴘʜᴀ ǫᴜᴇᴇɴ'
-global.footer = '©Alpha.'
+global.botname = 'ᴍɪɴ ǫᴜᴇᴇɴ'
+global.footer = '©Min Team.'
 global.ig = 'https://github.com/sadiyamin'
 global.region = 'Sri Lankan, South , Walasmulla'
 global.sc = 'https://github.com/sadiyamin'
@@ -36,14 +36,14 @@ global.prefa = ['','!','.','📚','🐤','🗿']
 global.sp = '⭔'
 global.mess = {
     success: 'Done ✓(හරි(ᴍɪɴ ᴛᴇᴄʜ ᴅᴇᴠᴇʟᴏᴘᴇʀ sᴀᴅᴇᴇsʜᴀ)',
-    admin: '_Adminලට විතරයි හුත්තො 😂_',
+    admin: '_Adminලට විතරයි_',
     botAdmin: 'Bot Must Be Admin First!',
     owner: '_සදීෂට විතරයි...😏_',
     group: '_Group වලට විතරයි...🙄_',
     private: 'Features Used Only For Private Chat!',
     bot: '_සදීෂට විතරයි...🙈_',
     wait: '_(පොඩ්ඩක් හිටපං...😏)_',
-    error: 'Error! Maybe Api Key Is Expired🤔! _(අවුලක් සගෝ...ආයෙ ඉල්ලන්න එපා...😏)_',
+    error: 'අවුලක් සගෝ...ආයෙ ඉල්ලන්න එපා...😏_',
     endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
 }
     global.limitawal = {
