@@ -147,14 +147,10 @@ Tol = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeURICom
                     GojoMdNx.sendMessage(anu.id, { image: Kon, contextInfo: { mentionedJid: [num] }, caption: `
 ✑ 𝗛𝗼𝗹𝗮 👋🏻 @${num.split("@")[0]},
 ✑ 𝗕𝗶𝗲𝗻𝘃𝗲𝗻𝗶𝗱𝗼 𝗮𝗹 𝗴𝗿𝘂𝗽𝗼 ${metadata.subject}
-
-✑ Description: ${metadata.desc}
-
-✑ No te olvides de leer las reglas del grupo!!!`} )
+✑ Disfruta tu estadia aquí, no te olvides de leer las reglas del grupo!!!`} )
                 } else if (anu.action == 'remove') {
                     GojoMdNx.sendMessage(anu.id, { image: Tol, contextInfo: { mentionedJid: [num] }, caption: `✑ 𝗔𝗱𝗶ó𝘀 @${num.split("@")[0]}
-
-✑ Estaremos mejor sin tí` })
+✑ Estaremos mejor sin tí!!!` })
                 }
             }
         } catch (err) {
