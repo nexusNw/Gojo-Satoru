@@ -1,7 +1,8 @@
 //═══════════════════════════════════════════════════════//
 //
-//                              𝙶𝙾𝙹𝙾-𝚂𝙰𝚃𝙾𝚁𝚄 𝓫𝔂 𝓷𝓮𝔁𝓾𝓼𝓝𝔀
-//𝙰𝙳𝙾𝙿𝚃𝙴𝙳 𝙵𝚁𝙾𝙼  𝚂𝙲𝚁𝙸𝙿𝚃 𝙾𝙵 𝙲𝙷𝙴𝙴𝙼𝚂𝙱𝙾𝚃 𝚅2 𝙱𝚈 𝙳𝙶𝚇𝚎𝚘𝚗 
+//                              DARK-DEEP 𝓫𝔂 𝓚𝓮𝓹𝓵𝓪𝓻 𝓢𝓽𝓾𝓭𝓲𝓸
+
+//𝙰𝙳𝙾𝙿𝚃𝙴𝙳 𝙵𝚁𝙾𝙼  𝚂𝙲𝚁𝙸𝙿𝚃 𝙾𝙵 DARKDEEP𝙱𝙾𝚃 𝚅2 𝙱𝚈 KEPLAR 
 //
 //════════════════════════════//
 
@@ -19,18 +20,18 @@ global.APIKeys = {
 }
 
 //customize settings\\
-global.owner = ['254769611983']
-global.premium = ['254769611983']
-global.ownernomer = '254769611983'
-global.ownername = 'who am í?'
-global.botname = 'The white angel'
-global.footer = '©NexusNwInc.'
+global.owner = ['916291588399']
+global.premium = ['916291588399']
+global.ownernomer = '916291588399'
+global.ownername = '☬𝕯𝖊𝖊𝖕𝖉𝖎𝖆☬'
+global.botname = '𝕯𝖆𝖗𝖐 𝕯𝖊𝖊𝖕'
+global.footer = '©Keplar.'
 global.ig = 'https://github.com/nexusNw'
-global.region = 'Kenya, South kenya, Kisii'
-global.sc = 'https://github.com/Cisco1983/Gojo-Satoru'
-global.myweb = 'https://youtube.com/channel/UCqoUjPvDdb0kjXNYdvPPpHQ'
-global.packname = 'Gojo-Satoru'
-global.author = '🐦Star Boy Nexus'
+global.region = 'India'
+global.sc = 'https://github.com/kumarduttadeep'
+global.myweb = 'https://www.youtube.com/channel/UCu-TyFlJEIRY_15lg7FlpGA'
+global.packname = 'Keplar Studio'
+global.author = '🐦Dark Deep'
 global.sessionName = 'session'
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
