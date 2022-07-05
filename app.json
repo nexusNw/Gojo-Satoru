@@ -1,7 +1,7 @@
 {
   "name": "☬𝕯𝖊𝖊𝖕𝖉𝖎𝖆☬",
   "description": "whatsapp md bot build with nodejs",
-  "repository": "https://github.com/nexusNw/Gojo-Satoru",
+  "repository": "https://github.com/kumarduttadeep",
   "logo": "https://telegra.ph/file/9812435e7c0a245ea50c4.jpg",
   "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
   "buildpacks": [
