@@ -20,7 +20,7 @@ global.APIKeys = {
 }
 
 //customize settings\\
-global.owner = ['☬𝕯𝖊𝖊𝖕𝖉𝖎𝖆☬']
+global.owner = ['916291588399']
 global.premium = ['916291588399']
 global.ownernomer = '916291588399'
 global.ownername = '☬𝕯𝖊𝖊𝖕𝖉𝖎𝖆☬'
