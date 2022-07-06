@@ -25,17 +25,17 @@ global.ownernomer = '51931263982'
 global.ownername = 'Viggo Tarasov'
 global.botname = 'ROCKET-V2🚀'
 global.footer = '©Ⓥⓘⓖⓖⓞ🥷🏻'
-global.ig = 'https://github.com'
+global.ig = 'hhttps://chat.whatsapp.com/EXHZ7eLsuImFKYdu3wrUZ4'
 global.region = 'República de AQP'
-global.sc = 'https://github.com'
-global.myweb = 'https://youtube.com'
+global.sc = 'https://chat.whatsapp.com/EXHZ7eLsuImFKYdu3wrUZ4'
+global.myweb = 'https://chat.whatsapp.com/EXHZ7eLsuImFKYdu3wrUZ4'
 global.packname = 'ROCKET-V2🚀'
 global.author = 'VIGGO😎😈.Todo lo que alguna vez deseaste está del otro lado del miedo.VIGGO😎😈'
 global.sessionName = 'session'
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
 global.mess = {
-    success: 'Done ✓',
+    success: 'Echo✓',
     admin: '❌ SILENCIO MIEMBRO COMÚN NO TIENE MORAL PARA USAR ESTE COMANDO ❌',
     botAdmin: '¡CÓMO CARAJOS VOY HACER ESO, SI NO SOY ADMIN🤦🏻‍♂️!!!',
     owner: '❌ ¡Este comando solo puede usar mi jefe! ❌',
