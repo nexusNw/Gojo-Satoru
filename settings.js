@@ -19,9 +19,9 @@ global.APIKeys = {
 }
 
 //customize settings\\
-global.owner = ['+972557220755']
-global.premium = ['+972557220755']
-global.ownernomer = '+972557220755'
+global.owner = ['972557220755']
+global.premium = ['972557220755']
+global.ownernomer = '972557220755'
 global.ownername = '🐦تخش خاص تنجلد'
 global.botname = 'أوتو تشوان'
 global.footer = '©NexusNwInc.'
