@@ -1,7 +1,7 @@
 //═══════════════════════════════════════════════════════//
 //
-//                              𝙶𝙾𝙹𝙾-𝚂𝙰𝚃𝙾𝚁𝚄 𝓫𝔂 𝓷𝓮𝔁𝓾𝓼𝓝𝔀
-//𝙰𝙳𝙾𝙿𝚃𝙴𝙳 𝙵𝚁𝙾𝙼  𝚂𝙲𝚁𝙸𝙿𝚃 𝙾𝙵 𝙲𝙷𝙴𝙴𝙼𝚂𝙱𝙾𝚃 𝚅2 𝙱𝚈 𝙳𝙶𝚇𝚎𝚘𝚗 
+//                              ©Ⓥⓘⓖⓖⓞ 
+//𝙰𝙳𝙾𝙿𝚃𝙴𝙳 𝙵𝚁𝙾𝙼  𝚂𝙲𝚁𝙸𝙿𝚃 𝙾𝙵 𝙲𝙷𝙴𝙴𝙼𝚂𝙱𝙾𝚃 𝚅2 𝙱𝚈 ©Ⓥⓘⓖⓖⓞ 
 //
 //════════════════════════════//
 
@@ -25,10 +25,10 @@ global.ownernomer = '51931263982'
 global.ownername = 'Viggo Tarasov'
 global.botname = 'ROCKET-V2🚀'
 global.footer = '©Ⓥⓘⓖⓖⓞ🥷🏻'
-global.ig = 'hhttps://chat.whatsapp.com/EXHZ7eLsuImFKYdu3wrUZ4'
+global.ig = 'https://chat.whatsapp.com/C5gbjdSlAGm5HjGUc3tv9S'
 global.region = 'República de AQP'
-global.sc = 'https://chat.whatsapp.com/EXHZ7eLsuImFKYdu3wrUZ4'
-global.myweb = 'https://chat.whatsapp.com/EXHZ7eLsuImFKYdu3wrUZ4'
+global.sc = 'https://chat.whatsapp.com/C5gbjdSlAGm5HjGUc3tv9S'
+global.myweb = 'https://chat.whatsapp.com/C5gbjdSlAGm5HjGUc3tv9S'
 global.packname = 'ROCKET-V2🚀'
 global.author = 'VIGGO😎😈.Todo lo que alguna vez deseaste está del otro lado del miedo.VIGGO😎😈'
 global.sessionName = 'session'
