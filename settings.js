@@ -1,7 +1,7 @@
 //═══════════════════════════════════════════════════════//
 //
-//                              𝙶𝙾𝙹𝙾-𝚂𝙰𝚃𝙾𝚁𝚄 𝓫𝔂 𝓷𝓮𝔁𝓾𝓼𝓝𝔀
-//𝙰𝙳𝙾𝙿𝚃𝙴𝙳 𝙵𝚁𝙾𝙼  𝚂𝙲𝚁𝙸𝙿𝚃 𝙾𝙵 𝙲𝙷𝙴𝙴𝙼𝚂𝙱𝙾𝚃 𝚅2 𝙱𝚈 𝙳𝙶𝚇𝚎𝚘𝚗 
+//                              ©Ⓥⓘⓖⓖⓞ 
+//𝙰𝙳𝙾𝙿𝚃𝙴𝙳 𝙵𝚁𝙾𝙼  𝚂𝙲𝚁𝙸𝙿𝚃 𝙾𝙵 𝙲𝙷𝙴𝙴𝙼𝚂𝙱𝙾𝚃 𝚅2 𝙱𝚈 ©Ⓥⓘⓖⓖⓞ 
 //
 //════════════════════════════//
 
@@ -19,32 +19,32 @@ global.APIKeys = {
 }
 
 //customize settings\\
-global.owner = ['Your Number']
-global.premium = ['Your Number']
-global.ownernomer = 'Your Number'
-global.ownername = '🐦Star Boy Nexus'
-global.botname = 'Gojo-Satoru'
-global.footer = '©NexusNwInc.'
-global.ig = 'https://github.com/nexusNw'
-global.region = 'India, South India, Kerala'
-global.sc = 'https://github.com/nexusNw/Gojo-Satoru'
-global.myweb = 'https://youtube.com/channel/UCqoUjPvDdb0kjXNYdvPPpHQ'
-global.packname = 'Gojo-Satoru'
-global.author = '🐦Star Boy Nexus'
+global.owner = ['51931263982']
+global.premium = ['51931263982']
+global.ownernomer = '51931263982'
+global.ownername = 'Viggo Tarasov'
+global.botname = 'ROCKET🚀'
+global.footer = '©Ⓥⓘⓖⓖⓞ'
+global.ig = 'https://chat.whatsapp.com/C5gbjdSlAGm5HjGUc3tv9S'
+global.region = 'República de AQP'
+global.sc = 'https://chat.whatsapp.com/C5gbjdSlAGm5HjGUc3tv9S'
+global.myweb = 'https://chat.whatsapp.com/C5gbjdSlAGm5HjGUc3tv9S'
+global.packname = 'Ⓥⓘⓖⓖⓞ'
+global.author = 'Todo lo que alguna vez deseaste está del otro lado del miedo.Ⓥⓘⓖⓖⓞ'
 global.sessionName = 'session'
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
 global.mess = {
-    success: 'Done ✓',
-    admin: 'This Feature Is Only For Admin!',
-    botAdmin: 'Bot Must Be Admin First!',
-    owner: 'This Feature Is Only For Owner!',
-    group: 'Feature Used Only For Groups!',
-    private: 'Features Used Only For Private Chat!',
-    bot: 'This Feature Is Only For Bot',
-    wait: 'Wait A minute...',
-    error: 'Error! Maybe Api Key Is Expired🤔!',
-    endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
+    success: 'Echo✓',
+    admin: '❌ SILENCIO MIEMBRO COMÚN NO TIENE MORAL PARA USAR ESTE COMANDO ❌',
+    botAdmin: '¡CÓMO CARAJOS VOY HACER ESO, SI NO SOY ADMIN🤦🏻‍♂️!!!',
+    owner: '❌ ¡Este comando solo puede usar mi jefe! ❌',
+    group: '¡Esta característica es solo para grupos!',
+    private: '¡Esta función es solo para chats privados!',
+    bot: '❌ Solo yo puedo usar esta función',
+    wait: 'Espera un momento...',
+    error: '¡Error! Será para la proxima o nunca!!!',
+    endLimit: 'Su límite diario ha expirado, el límite se restablecerá cada 12 horas',
 }
     global.limitawal = {
     premium: "Infinity",
