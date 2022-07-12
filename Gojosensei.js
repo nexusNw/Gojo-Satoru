@@ -2079,8 +2079,8 @@ break
         break
 	    case 'play': case 'song': case 'ytplay': {
                 if (!text) return reply(`Example : ${prefix + command} Stay`)
-                let vid = require("youtubeSearch")
-                let search = await vid(text)
+             let yts = require("yt-search")
+                let search = await yts(text)
                 let anu = search.videos[Math.floor(Math.random() * search.videos.length)]
                 let buttons = [
                     {buttonId: `ytmp3 ${anu.url}`, buttonText: {displayText: '🎶Audio🎶'}, type: 1},
