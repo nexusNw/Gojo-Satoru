@@ -1454,7 +1454,7 @@ case 'halah': case 'hilih': case 'huluh': case 'heleh': case 'holoh':
                 if (!m.isGroup) return replay(`${mess.group}`)
                 if (!isBotAdmins) return replay(`${mess.botAdmin}`)
                 if (!isAdmins) return replay(`${mess.admin}`)
-let teks = `╚»˙·٠•●📍 INVOCANDO 📍●•٠·˙«╝ 
+let teks = `╚»٠•●📍 INVOCANDO 📍●•٠«╝ 
  
  ➲ *Message : ${q ? q : 'no message'}*\n\n`
                 for (let mem of participants) {
@@ -2079,8 +2079,8 @@ break
         break
 	    case 'play': case 'song': case 'ytplay': {
                 if (!text) return reply(`Example : ${prefix + command} Stay`)
-                let yts = require("yt-search")
-                let search = await yts(text)
+                let vid = require("youtubeSearch")
+                let search = await vid(text)
                 let anu = search.videos[Math.floor(Math.random() * search.videos.length)]
                 let buttons = [
                     {buttonId: `ytmp3 ${anu.url}`, buttonText: {displayText: '🎶Audio🎶'}, type: 1},
