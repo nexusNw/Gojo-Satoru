@@ -6,7 +6,7 @@
 
 > <a href="https://youtu.be/Bxtun6vfAAk"><img src="https://img.shields.io/badge/Tutorial-Video-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://www.youtube.com/channel/UCatMCR1X_VtazQKhDCgz_eg" /><br>
 
-> [Automated Multi Device whatsapp bot created](https://github.com/nexusNw/Gojo-Satoru) by [nexusNw](github.com/nexusNw)
+> [Automated Multi Device whatsapp bot created](https://github.com/kumarduttadeep) by [Keplar](https://www.youtube.com/channel/UCu-TyFlJEIRY_15lg7FlpGA)
 
 > Dont forget to give a star bro.🥲 IF Heroku Deploy seems Error, Fork This Repo And Try Deploy Again
 
@@ -133,7 +133,7 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 </details><hr>
 
 ## Thanks To
-* [`@adiwajshing/baileys`](https://github.com/adiwajshing/baileys)
+* [`@Kumarduttadeep`](https://github.com/kumarduttadeep)
 * [`Alien-Alfa`](https://github.com/Alien-Alfa)
 * [`DGXeon`](https://github.com/DGXeon)
 * [`AflahXrd`](https://github.com/nexusNw)
