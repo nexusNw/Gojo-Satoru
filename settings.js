@@ -19,18 +19,18 @@ global.APIKeys = {
 }
 
 //customize settings\\
-global.owner = ['Your Number']
-global.premium = ['Your Number']
-global.ownernomer = 'Your Number'
-global.ownername = '🐦Star Boy Nexus'
-global.botname = 'Gojo-Satoru'
-global.footer = '©NexusNwInc.'
-global.ig = 'https://github.com/nexusNw'
-global.region = 'India, South India, Kerala'
-global.sc = 'https://github.com/nexusNw/Gojo-Satoru'
-global.myweb = 'https://youtube.com/channel/UCqoUjPvDdb0kjXNYdvPPpHQ'
-global.packname = 'Gojo-Satoru'
-global.author = '🐦Star Boy Nexus'
+global.owner = ['6285773400911']
+global.premium = ['6285773400911', '6285724628732']
+global.ownernomer = ['6285773400911']
+global.ownername = 'Achmadcstllo✓'
+global.botname = 'TheGlory—MD'
+global.footer = '©TheGlory—MD.'
+global.ig = 'https://trakteer.id/Achmdcstllo'
+global.region = 'Indonesian, Jawa barat, Bandung'
+global.sc = 'Mau? Chat Owner aja'
+global.myweb = 'https://saweria.co/Achmadcstllo'
+global.packname = 'TheGlory—MD'
+global.author = 'Achmadcstllo'
 global.sessionName = 'session'
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
@@ -48,12 +48,12 @@ global.mess = {
 }
     global.limitawal = {
     premium: "Infinity",
-    free: 12,
-    monayawal: 1000
+    free: 20,
+    monayawal: 10000
 }
    global.rpg = {
    darahawal: 100,
-   besiawal: 15,
+   besiawal: 10,
    goldawal: 10,
    emeraldawal: 5,
    umpanawal: 5,
