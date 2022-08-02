@@ -26,23 +26,23 @@ global.ownername = 'محمد/أشيلاد✨'
 global.botname = 'أوتو تشوان'
 global.footer = '©NexusNwInc.'
 global.ig = 'https://github.com/nexusNw'
-global.region = 'India, South India, Kerala'
+global.region = 'اليمن , عدن, اي منطقه'
 global.sc = 'https://github.com/nexusNw/Gojo-Satoru'
 global.myweb = 'https://youtube.com/channel/UCqoUjPvDdb0kjXNYdvPPpHQ'
-global.packname = 'أوتو _ تشوان'
-global.author = '🐦انا اوتو'
+global.packname = 'ريكو _ تشوان'
+global.author = '🐦انا ريكو'
 global.sessionName = 'session'
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
 global.mess = {
     success: 'Done ✓',
-    admin: 'This Feature Is Only For Admin!',
+    admin: 'تراك مش أدمن لا تهبد!',
     botAdmin: 'Bot Must Be Admin First!',
     owner: 'This Feature Is Only For Owner!',
     group: 'Feature Used Only For Groups!',
     private: 'Features Used Only For Private Chat!',
     bot: 'This Feature Is Only For Bot',
-    wait: 'اننتظر لاهبدك...',
+    wait: 'اننتظر شوي ترى احبك...',
     error: 'Error! Maybe Api Key Is Expired🤔!',
     endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
 }
