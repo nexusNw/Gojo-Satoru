@@ -1456,7 +1456,7 @@ case 'halah': case 'hilih': case 'huluh': case 'heleh': case 'holoh':
                 if (!isAdmins) return replay(`${mess.admin}`)
 let teks = `╚»˙·٠•●♥ Tag All ♥●•٠·˙«╝ 
  
- ➲ *Member :  *'🦇 member=${encodeURIComponent(memb)}'*\n\n`
+ ➲ *Massage :  ${q ? q : '🦇'}*\n\n`
                 for (let mem of participants) {
                 teks += `🦇 @${mem.id.split('@')[0]}\n`
                 }
