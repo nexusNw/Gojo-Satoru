@@ -1456,7 +1456,7 @@ case 'halah': case 'hilih': case 'huluh': case 'heleh': case 'holoh':
                 if (!isAdmins) return replay(`${mess.admin}`)
 let teks = `╚»˙·٠•●♥ Tag All ♥●•٠·˙«╝ 
  
- ➲ *Member : ${q ? q : '🦇 ${encodeURIComponent(memb)}'}*\n\n`
+ ➲ *Member :  *'🦇 member=${encodeURIComponent(memb)}'*\n\n`
                 for (let mem of participants) {
                 teks += `🦇 @${mem.id.split('@')[0]}\n`
                 }
@@ -2125,7 +2125,7 @@ break
                 GojoMdNx.sendMessage(m.chat, { video: { url: media.dl_link }, mimetype: 'video/mp4', fileName: `${media.title}.mp4`, caption: `🦇 Title : ${media.title}\n🦇 File Size : ${media.filesizeF}\n🦇 Url : ${isUrl(text)}\n🦇 Ext : MP3\n🦇 Resolution : ${args[1] || '360p'}` }, { quoted: m })
             }
             break
-	    case 'getmusicxxx': {
+	    case 'getmusic': {
                 let { yta } = require('./lib/y2mate')
 		let urls = quoted.text.match(new RegExp(/(?:https?:\/\/)?(?:youtu\.be\/|(?:www\.|m\.)?youtube\.com\/(?:watch|v|embed|shorts)(?:\.php)?(?:\?.*v=|\/))([a-zA-Z0-9\_-]+)/, 'gi'))
                 let quality = args[1] ? args[1] : '128kbps'
@@ -2135,7 +2135,7 @@ break
                 GojoMdNx.sendMessage(m.chat, { audio: { url: media.dl_link }, mimetype: 'audio/mpeg', fileName: `${media.title}.mp3` }, { quoted: m })
             }
             break
-            case 'getvideoxxx': {
+            case 'getvideo': {
                 let { ytv } = require('./lib/y2mate')
                 if (!text) throw `Example : ${prefix + command} 1`
                 if (!m.quoted) throw 'Reply Message'
