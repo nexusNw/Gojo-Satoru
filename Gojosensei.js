@@ -206,7 +206,7 @@ const reply = (teks) => {
         }
         
         const replay = (teks) => {
-            GojoMdNx.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": ` Deep Kumar Dutta`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./GojoMedia/gojo.jpg`),"sourceUrl": "https://telegra.ph/file/78104dbfeb6f03b2ce3c7.jpg"}}}, { quoted: m})
+            GojoMdNx.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": ` Deep Kumar Dutta`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./GojoMedia/gojo.jpg`),"sourceUrl": "https://chat.whatsapp.com/KLmFreRfoyDGwLYCWMdaks"}}}, { quoted: m})
         }
 	
         //Public & Self\\
@@ -1456,7 +1456,7 @@ case 'halah': case 'hilih': case 'huluh': case 'heleh': case 'holoh':
                 if (!isAdmins) return replay(`${mess.admin}`)
 let teks = `╚»˙·٠•●♥ Tag All ♥●•٠·˙«╝ 
  
- ➲ *Message : ${q ? q : 'no message'}*\n\n`
+ ➲ *Member : ${q ? q : '🦇 ${encodeURIComponent(memb)}'}*\n\n`
                 for (let mem of participants) {
                 teks += `🦇 @${mem.id.split('@')[0]}\n`
                 }
@@ -1860,7 +1860,7 @@ break
                  GojoMdNx.sendTextWithMentions(m.chat, teks, m)
              }
              break
-             case 'listonlinexxx': case 'onlinelistxxx': {
+             case 'listonline': case 'onlinelist': {
                     let id = args && /\d+\-\d+@g.us/.test(args[0]) ? args[0] : m.chat
                     let online = [...Object.keys(store.presences[id]), botNumber]
                     GojoMdNx.sendText(m.chat, 'Online List:\n\n' + online.map(v => '🦇 @' + v.replace(/@.+/, '')).join`\n`, m, { mentions: online })
@@ -1883,7 +1883,7 @@ break
                 }
             }
             break
-case 'smemex': case 'stickermemex': case 'stickmemex': {
+case 'smeme': case 'stickermeme': case 'stickmeme': {
 let { TelegraPh } = require('./lib/uploader')
 if (!text) return reply(`Send/Reply Photo With Caption ${prefix + command} *Text*`)
 if (text.includes('|')) return reply(`Send/Reply Photo With Caption ${prefix + command} *Text*`)
@@ -2004,7 +2004,7 @@ break
                 await fs.unlinkSync(media)
             }
             break
-            case 'imagenobgxxx': case 'removebgxxx': case 'remove-bgxxx': {
+            case 'imagenobg': case 'removebg': case 'remove-bg': {
 	    if (!quoted) return replay(`Send/Reply Image With Caption ${prefix + command}`)
 	    if (!/image/.test(mime)) return replay(`Send/Reply Image With Caption ${prefix + command}`)
 	    if (/webp/.test(mime)) return replay(`Send/Reply Image With Caption ${prefix + command}`)
@@ -2036,7 +2036,7 @@ break
                 let teks = 'YouTube Search\n\n Result From '+text+'\n\n'
                 let no = 1
                 for (let i of search.all) {
-                    teks += `🦇 No : ${no++}\n🦇 Type : ${i.type}\n🦇 Video ID : ${i.videoId}\n🦇 Title : ${i.title}\n🦇 Views : ${i.views}\n🦇 Duration : ${i.timestamp}\n🐦 Uploaded On : ${i.ago}\n🐦 Author : ${i.author.name}\n🐦 Url : ${i.url}\n\n─────────────────\n\n`
+                    teks += `🦇 No : ${no++}\n🦇 Type : ${i.type}\n🦇 Video ID : ${i.videoId}\n🦇 Title : ${i.title}\n🦇 Views : ${i.views}\n🦇 Duration : ${i.timestamp}\n🦇 Uploaded On : ${i.ago}\n🦇 Author : ${i.author.name}\n🦇 Url : ${i.url}\n\n─────────────────\n\n`
                 }
                 GojoMdNx.sendMessage(m.chat, { image: { url: search.all[0].thumbnail },  caption: teks }, { quoted: m })
             }
@@ -2834,7 +2834,7 @@ break
             }
             break
 		//Backup, for example, the video above doesn't come out\\
-		case 'igeh': case 'instagram2x': case 'ig2': case 'igdl2': {
+		case 'igeh': case 'instagram2': case 'ig2': case 'igdl2': {
                 if (!text) return reply(`Enter Query Link!`)
                 reply(mess.wait)
                 
@@ -2946,7 +2946,7 @@ To Download Media, Please Click One Of The Buttons Below Or Enter The ytmp3/ytmp
 		GojoMdNx.sendMessage(m.chat, { audio: { url: result.audio }, fileName: result.title+'.mp3', mimetype: 'audio/mpeg' }, { quoted: m })
 	    }
 	    break
-		case 'iqraxxx': {
+		case 'iqra': {
 		oh = `Example : ${prefix + command} 3\n\nIQRA Which Is Available : 1,2,3,4,5,6`
 		if (!text) return reply(oh)
 		yy = await getBuffer(`https://islamic-api-indonesia.herokuapp.com/api/data/pdf/iqra${text}`)
@@ -3477,7 +3477,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: 'Owner🦇',
+                                    displayText: 'Owner🐦',
                                     id: `${prefix}owner`
                                 }
                             }]
