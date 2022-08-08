@@ -1389,6 +1389,7 @@ case 'halah': case 'hilih': case 'huluh': case 'heleh': case 'holoh':
 		if (!m.isGroup) return replay(`${mess.group}`)
                 if (!isBotAdmins) return replay(`${mess.botAdmin}`)
                 if (!isAdmins) return replay(`${mess.admin}`)
+		if (!isCreator) return replay(`${mess.owner}`)
 		let users = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '')+'@s.whatsapp.net'
 		await GojoMdNx.groupParticipantsUpdate(m.chat, [users], 'promote').then((res) => reply(jsonformat(res))).catch((err) => reply(jsonformat(err)))
 	}
@@ -1397,6 +1398,7 @@ case 'halah': case 'hilih': case 'huluh': case 'heleh': case 'holoh':
 		if (!m.isGroup) return replay(`${mess.group}`)
                 if (!isBotAdmins) return replay(`${mess.botAdmin}`)
                 if (!isAdmins) return replay(`${mess.admin}`)
+		if (!isCreator) return replay(`${mess.owner}`)
 		let users = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '')+'@s.whatsapp.net'
 		await GojoMdNx.groupParticipantsUpdate(m.chat, [users], 'demote').then((res) => reply(jsonformat(res))).catch((err) => reply(jsonformat(err)))
 	}
@@ -1725,6 +1727,7 @@ break
              break
             case 'linkgroup': case 'linkgc': case 'gclink': case 'grouplink': {
                 if (!m.isGroup) return replay(`${mess.group}`)
+		if (!isAdmins) return replay(`${mess.admin}`)
                 let response = await GojoMdNx.groupInviteCode(m.chat)
                 GojoMdNx.sendText(m.chat, `https://chat.whatsapp.com/${response}\n\n${groupMetadata.subject} Group Link`, m, { detectLink: true })
             }
@@ -1819,6 +1822,7 @@ break
             }
             break
             case 'chatinfo': case 'infochat': {
+		if (!isCreator) return replay(`${mess.owner}`)
                 if (!m.quoted) return reply(`Reply Message`)
                 let msg = await m.getQuotedObj()
                 if (!m.quoted.isBaileys) return replay(`The Message Was Not Sent By A Bot!`)
@@ -1841,6 +1845,7 @@ break
             }
 	    break
             case 'listpc': case 'pclist': {
+		 if (!isCreator) return replay(`${mess.owner}`)
                  let anu = await store.chats.all().filter(v => v.id.endsWith('.net')).map(v => v.id)
                  let teks = `⬣ *PERSONAL CHAT LIST*\n\nTotal Chat : ${anu.length} Chat\n\n`
                  for (let i of anu) {
@@ -1851,6 +1856,7 @@ break
              }
              break
                 case 'listgc': case 'gclist': {
+		 if (!isCreator) return replay(`${mess.owner}`)
                  let anu = await store.chats.all().filter(v => v.id.endsWith('@g.us')).map(v => v.id)
                  let teks = `⬣ *GROUP CHAT LIST*\n\nTotal Group : ${anu.length} Group\n\n`
                  for (let i of anu) {
@@ -1861,6 +1867,7 @@ break
              }
              break
              case 'listonline': case 'onlinelist': {
+		    if (!isAdmins) return replay(`${mess.admin}`)
                     let id = args && /\d+\-\d+@g.us/.test(args[0]) ? args[0] : m.chat
                     let online = [...Object.keys(store.presences[id]), botNumber]
                     GojoMdNx.sendText(m.chat, 'Online List:\n\n' + online.map(v => '🦇 @' + v.replace(/@.+/, '')).join`\n`, m, { mentions: online })
@@ -3353,7 +3360,8 @@ case 'cry':case 'kill':case 'hug':case 'pat':case 'lick':case 'kiss':case 'bite'
 					GojoMdNx.sendImage(m.chat, data.url, mess.success, m)
 					})
 					break
-case "setmenuxxx": 
+case "setmenu": 
+if (!isCreator) return replay(`${mess.owner}`)
 if (!text) return reply("1. image\n2. list\n3. catalog\n\nExample .setmenu image")
 if (q == "image") {
 typemenu = 'image'
