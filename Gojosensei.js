@@ -1182,13 +1182,6 @@ Cieeee, What's Going On❤️💖👀`
 		
 		
 		
-		case 'deepdia':
-				if (!text) return replay(`Use Text, Example : ${prefix + command} he married `)
-					const lel = [`./Deepdia/Deepdia1.mp3`, `./Deepdia/Deepdia2.mp3`, `./Deepdia/Deepdia3.mp3`,  `./Deepdia/Deepdia4.mp3`,  `./Deepdia/Deepdia5.mp3`,  `./Deepdia/Deepdia6.mp3`, `./Deepdia/Deepdia7.mp3`, `./Deepdia/Deepdia8.mp3`, `./Deepdia/Deepdia9.mp3`, `./Deepdia/Deepdia10.mp3`, `./Deepdia/Deepdia11.mp3`]
-					const kahk = lel[Math.floor(Math.random() * lel.length)]
-GojoMdNx.sendMessage(from, { text: `Audio : Deepdia ${q}\n ${kahk}` }, { quoted: m })
-
-					break
 		
 		
 		
