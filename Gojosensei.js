@@ -3389,7 +3389,7 @@ reply("Success Changing Menu To "+q)
 }
 
                     break
-                     case 'alive': case 'bot':{
+                     case 'alive': case 'botxxx':{
                            	timestampe = speed();
 latensie = speed() - timestampe
  anu = ` `
