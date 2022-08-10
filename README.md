@@ -124,7 +124,9 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 ## ```Connect With Me```
 <p align="center">
 <a href="https://wa.me/916291588399"><img src="https://img.shields.io/badge/Contact Nexus-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-<a href="https://www.youtube.com/channel/UCu-TyFlJEIRY_15lg7FlpGA"><img src="https://img.shields.io/badge/Subscribe Nexus-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://www.youtube.com/channel/UCatMCR1X_VtazQKhDCgz_eg" /><br>
+<script src="https://apis.google.com/js/platform.js"></script>
+
+<div class="g-ytsubscribe" data-channelid="UC8agz4tGDexq1A9borHVVFw" data-layout="default" data-count="hidden"></div><br>
 </p>
 
 </details>
