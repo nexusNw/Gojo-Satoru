@@ -15,8 +15,8 @@
 
 </br>
 
-<a href="https://github.com/kumarduttadeep"><img title="Author" src="https://img.shields.io/badge/Author-Keplar-blue.svg?color=54aeff&style=for-the-badge&logo=github" /></a>  
-<a href="https://github.com/nexusNw/Gojo-Satoru"><img title="Stars" src="https://img.shields.io/github/stars/nexusNw/Gojo-Satoru?color=54aeff&style=flat-square" /></a>
+<a href="https://github.com/darkdeepbot"><img title="Author" src="https://img.shields.io/badge/Author-Keplar-blue.svg?color=54aeff&style=for-the-badge&logo=github" /></a>  
+<a href="https://github.com/darkdeepbot/Dark-Deep"><img title="Stars" src="https://img.shields.io/github/stars/nexusNw/Gojo-Satoru?color=54aeff&style=flat-square" /></a>
 <a href="https://github.com/nexusNw/Gojo-Satoru/network/members"><img title="Forks" src="https://img.shields.io/github/forks/nexusNw/Gojo-Satoru?color=54aeff&style=flat-square" /></a>
 <a href="https://github.com/nexusNw/Gojo-Satoru/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/nexusNw/Gojo-Satoru?label=watchers&color=54aeff&style=flat-square" /></a> <br>
 
@@ -38,7 +38,7 @@ Add FFmpeg to PATH environment variable
 <!-- Start via Heroku -->
 <b><details><summary>Start via Heroku</summary></b>
 
-* Scan QR In Your Whatsapp From [Here](https://replit.com/@nexusNw/M-D-SCANNER-V2?v=1?outputonly=1&lite=1#index.js)
+* Scan QR In Your Whatsapp From [Here](https://replit.com/@DarkDeep/Dark-Bot?v=1?outputonly=1&lite=1#index.js)
 * Fork This Repo By Clicking [Here](https://github.com/darkdeepbot/Dark-Deep)
 * then Deploy The Bot From [Here](https://heroku.com/deploy)
 * Wait 5-10 Min To Deploy 
@@ -61,7 +61,7 @@ Add FFmpeg to PATH environment variable
 > pkg install ffmpeg -y 
 > pkg install wget
 > pkg install imagemagick -y
-> git clone https://github.com/nexusNw/Gojo-Satoru
+> git https://github.com/darkdeepbot/Dark-Deep
 > cd ☬𝕯𝖊𝖊𝖕𝖉𝖎𝖆☬
 > npm install
 ```
@@ -141,4 +141,4 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 * [`AflahXrd`](https://github.com/nexusNw)
 
 
-License: [MIT](https://github.com/Gojo-Satoru/LICENSE)
+License: [MIT](https://github.com/darkdeepbot/Dark-Deep/LICENSE)
