@@ -3462,14 +3462,8 @@ break
             case 'list': case 'menu': {
             	timestampe = speed();
 latensie = speed() - timestampe
-                anu = ``
-const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
-                    templateMessage: {
-                        hydratedTemplate: {
-                            hydratedContentText: anu,
-                            locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./GojoMedia/gojo.jpg')}, 
-                            hydratedFooterText: `
+                anu = `
+
 ┌─❖
 │「 Hi 👋 」
 └┬❖ 「 ${pushname} 」
@@ -3487,6 +3481,16 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 └┬──────────────┈ ⳹
    │✑  Please Select The Button Below
    └───────────────┈ ⳹`,
+   
+   const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
+                    templateMessage: {
+                        hydratedTemplate: {
+                            hydratedContentText: anu,
+                            locationMessage: {
+                            jpegThumbnail: fs.readFileSync('./GojoMedia/gojo.jpg')}, 
+                            hydratedFooterText: `
+   
+   
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'YouTube📍',
