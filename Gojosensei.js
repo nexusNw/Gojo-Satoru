@@ -1707,9 +1707,9 @@ break
                 if (!isBotAdmins) return replay(`${mess.botAdmin}`)
                 if (!isAdmins) return replay(`${mess.admin}`)
                 if (args[0] === "on") {
-                if (db.data.chats[m.chat].antilink) return reply(`*(⭕)「 ACTIVATED 」(⭕)* /n/n *(⭕) Worning From Dark-Deep (⭕)* /n/n *(⭕) Don't Send Any Group Link (⭕)* /n/n ©ᴷᵉᵖˡᵃʳ`)
+                if (db.data.chats[m.chat].antilink) return reply(`*(⭕)「 ACTIVATED 」(⭕)* \n\n *(⭕) Worning From Dark-Deep (⭕)* \n\n *(⭕) Don't Send Any Group Link (⭕)* \n\n ©ᴷᵉᵖˡᵃʳ`)
                 db.data.chats[m.chat].antilink = true
-                reply(`*(⭕) Antilink Active ! (⭕)*`)
+                reply(`*(⭕) Antilink Active ! (⭕)* \n\n *(⭕) Worning From Dark-Deep (⭕)* \n\n *(⭕) Don't Send Any Group Link (⭕)* \n\n ©ᴷᵉᵖˡᵃʳ`)
                 } else if (args[0] === "off") {
                 if (!db.data.chats[m.chat].antilink) return reply(`Deactivated`)
                 db.data.chats[m.chat].antilink = false
