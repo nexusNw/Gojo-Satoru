@@ -202,7 +202,7 @@ module.exports = GojoMdNx = async (GojoMdNx, m, chatUpdate, store) => {
 	
 	//group target \\
 const reply = (teks) => {
-            GojoMdNx.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": ` Deep Kumar Dutta`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./GojoMedia/gojo.jpg`),"sourceUrl": "https://i.imgur.com/1VZ9fiC.png"}}}, { quoted: m})
+            GojoMdNx.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": ` Deep Kumar Dutta`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./GojoMedia/gojo.jpg`),"sourceUrl": "https://youtu.be/C3dmx6SCWHo"}}}, { quoted: m})
         }
         
         const replay = (teks) => {
@@ -1707,9 +1707,9 @@ break
                 if (!isBotAdmins) return replay(`${mess.botAdmin}`)
                 if (!isAdmins) return replay(`${mess.admin}`)
                 if (args[0] === "on") {
-                if (db.data.chats[m.chat].antilink) return reply(`*(⭕)「 ACTIVATED 」(⭕)* \n\n *(⭕) Worning From Dark-Deep (⭕)* \n\n *(⭕) Don't Send Any Group Link (⭕)* \n\n ©ᴷᵉᵖˡᵃʳ`)
+                if (db.data.chats[m.chat].antilink) return reply(`*(⭕)「 ACTIVATED 」(⭕)* \n\n ©ᴷᵉᵖˡᵃʳ`)
                 db.data.chats[m.chat].antilink = true
-                reply(`*(⭕) Antilink Active ! (⭕)* \n\n *(⭕) Worning From Dark-Deep (⭕)* \n\n *(⭕) Don't Send Any Group Link (⭕)* \n\n ©ᴷᵉᵖˡᵃʳ`)
+                reply(`*(⭕) Antilink Active ! (⭕)* \n\n ©ᴷᵉᵖˡᵃʳ`)
                 } else if (args[0] === "off") {
                 if (!db.data.chats[m.chat].antilink) return reply(`Deactivated`)
                 db.data.chats[m.chat].antilink = false
