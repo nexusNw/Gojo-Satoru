@@ -245,7 +245,7 @@ const reply = (teks) => {
 	  //antilink\\
         if (db.data.chats[m.chat].antilink) {
         if (budy.match(`chat.whatsapp.com`)) {
-        reply(`「 ANTI LINK 」\n\nYou have been detected sending a group link, sorry you will be kicked !`)
+        reply(`*(⭕)「 ANTI LINK 」(⭕)* \n\nYou have been detected sending a group link, sorry you will be kicked !`)
         if (!isBotAdmins) return reply(`I Am Not An Admin, How Could I Kick Somebody Who Send Link 😒`)
         let gclink = (`https://chat.whatsapp.com/`+await GojoMdNx.groupInviteCode(m.chat))
         let isLinkThisGc = new RegExp(gclink, 'i')
@@ -1707,9 +1707,9 @@ break
                 if (!isBotAdmins) return replay(`${mess.botAdmin}`)
                 if (!isAdmins) return replay(`${mess.admin}`)
                 if (args[0] === "on") {
-                if (db.data.chats[m.chat].antilink) return reply(`Activated`)
+                if (db.data.chats[m.chat].antilink) return reply(`Activated /n/n *(⭕) Worning From Dark-Deep (⭕)* /n/n *(⭕) Don't Send Any Group Link (⭕)* /n/n ©ᴷᵉᵖˡᵃʳ`)
                 db.data.chats[m.chat].antilink = true
-                reply(`Antilink Active !`)
+                reply(`*(⭕) Antilink Active ! (⭕)*`)
                 } else if (args[0] === "off") {
                 if (!db.data.chats[m.chat].antilink) return reply(`Deactivated`)
                 db.data.chats[m.chat].antilink = false
