@@ -596,7 +596,7 @@ let teks = `┏━━━[ 𝐃𝐀𝐑𝐊 𝐃𝐄𝐄𝐏 ]━━😈\n┏━�
             }
 break
 
-            break
+          
 	   
             
             case 'chatinfo': case 'infochat': {
