@@ -19,7 +19,7 @@ global.APIKeys = {
 }
 
 //customize settings\\
-global.owner = ['51931263982']
+global.owner = ['13309445416']
 global.premium = ['51931263982']
 global.ownernomer = '51931263982'
 global.ownername = 'Viggo Tarasov'
