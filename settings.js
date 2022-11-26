@@ -19,9 +19,9 @@ global.APIKeys = {
 }
 
 //customize settings\\
-global.owner = ['Your Number']
-global.premium = ['Your Number']
-global.ownernomer = 'Your Number'
+global.owner = ['201030982295']
+global.premium = ['20103092295']
+global.ownernomer = '201030982295'
 global.ownername = '🐦Star Boy Nexus'
 global.botname = 'Gojo-Satoru'
 global.footer = '©NexusNwInc.'
@@ -43,8 +43,8 @@ global.mess = {
     private: 'Features Used Only For Private Chat!',
     bot: 'This Feature Is Only For Bot',
     wait: 'Wait A minute...',
-    error: 'Error! Maybe Api Key Is Expired🤔!',
-    endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
+    خطأ: خطأ! 
+    endLimit: "انتهى الحد اليومي الخاص بك ، وسيتم إعادة تعيين الحد كل 12 ساعة" ،
 }
     global.limitawal = {
     premium: "Infinity",
