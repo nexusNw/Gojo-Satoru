@@ -36,7 +36,7 @@ global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
 global.mess = {
     success: 'Done ✓',
-    admin: 'This Feature Is Only For Admin!',
+    admin: 'wewe si Admin!',
     botAdmin: 'Hadi niekwe Admin kwanza!',
     owner: 'This Feature Is Only For my Owner hackg!',
     group: 'Feature Used Only For Groups!',
